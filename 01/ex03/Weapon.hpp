@@ -11,8 +11,9 @@ private:
     std::string type;
 
 public:
-    void set_type(std::string t_type);
-    std::string get_type(void);
+    Weapon(std::string t_type);
+    void setType(std::string t_type);
+    const std::string& getType(void);
 };
 
 

@@ -53,12 +53,16 @@ std::string Contact::get_nickname(void)
 
 void Contact::set_number(std::string t_number)
 {
-    if (!t_number.empty() && t_number.find(' '))
+    if (t_number.length() >= 5 && t_number.find(' '))
     {
-        for (int i = 1; i < t_number.length(); ++i)
-            if ((t_number[0] != '+' && !(t_number[0] >= '0' && t_number[0] <= '9'))
-                || !(t_number[i] >= '0' && t_number[i] <= '9'))
-                throw std::invalid_argument("Only numerical values or '+' as prefix");
+        for (int i = 0; i < t_number.length(); ++i)
+        {
+
+            if (i == 0 && (t_number[i] != '+' && !isdigit(t_number[i])))
+                throw std::invalid_argument("First character must be '+' or a digit");
+            else if (i > 0 && !isdigit(t_number[i]))
+                throw std::invalid_argument("Only digits allowed after the first character");
+        }
         this->number = t_number;
     }
     else

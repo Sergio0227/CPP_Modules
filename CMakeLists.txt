@@ -42,5 +42,12 @@ add_executable(01.ex02              #
 add_executable(01.ex03              #
         01/ex03/Weapon.cpp          #
         01/ex03/Weapon.hpp          #
-        01/ex03/main.cpp)           #
+        01/ex03/main.cpp            #
+        01/ex03/HumanA.cpp          #
+        01/ex03/HumanA.hpp          #
+        01/ex03/HumanB.cpp          #
+        01/ex03/HumanB.hpp)         #
+                                    #
+add_executable(01.ex04              #
+        01/ex04/main.cpp)           #
 #####################################

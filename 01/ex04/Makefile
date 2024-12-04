@@ -1,10 +1,7 @@
-SRC				=	main.cpp		\
-					Zombie.cpp		\
-					newZombie.cpp 	\
-					randomChump.cpp
+SRC				=	main.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			= BraiiiiiiinnnzzzZ
+NAME			= losers
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++
@@ -25,9 +22,9 @@ WHITE = \033[0;97m
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-		@echo "$(ORANGE)[BraiiiiiiinnnzzzZ]:$(DEF_COLOR) Linking object files to create executable $(GREEN)${NAME}$(DEF_COLOR)"
+		@echo "$(ORANGE)[Sed is for losers]:$(DEF_COLOR) Linking object files to create executable $(GREEN)${NAME}$(DEF_COLOR)"
 		@${CC} ${CFLAGS} ${CPPFLAGS} ${OBJS} -o ${NAME}
-		@echo "$(ORANGE)[BraiiiiiiinnnzzzZ]:$(DEF_COLOR) exec file $(GREEN)=> Created!$(DEF_COLOR)"
+		@echo "$(ORANGE)[Sed is for losers]:$(DEF_COLOR) exec file $(GREEN)=> Created!$(DEF_COLOR)"
 
 %.o: %.c
 		@echo "Compiling $< with flags \"${CFLAGS}\" and \"${CPPFLAGS}\""
@@ -36,10 +33,10 @@ ${NAME}: ${OBJS}
 
 clean:
 		@${RM} ${OBJS}
-		@echo -n "$(CYAN)[BraiiiiiiinnnzzzZ]:$(DEF_COLOR) object files$(RED) \t => Removed!$(DEF_COLOR)\n";
+		@echo -n "$(CYAN)[Sed is for losers]:$(DEF_COLOR) object files$(RED) \t => Removed!$(DEF_COLOR)\n";
 
 fclean: clean
-		@echo -n "$(CYAN)[BraiiiiiiinnnzzzZ]:$(DEF_COLOR) exec. files$(RED)  => Removed!$(DEF_COLOR)\n";
+		@echo -n "$(CYAN)[Sed is for losers]:$(DEF_COLOR) exec. files$(RED)  => Removed!$(DEF_COLOR)\n";
 		@${RM} ${NAME};
 
 

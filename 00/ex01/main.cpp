@@ -35,7 +35,6 @@ void display_contact_list(PhoneBook pb, int phonebook_size)
                 std::cout << "|\n";
         }
     }
-
 }
 
 int main()
@@ -71,6 +70,8 @@ int main()
                 getline(std::cin, t_string);
                 t_contact.set_secret(t_string);
                 pb.add_contact(index++, t_contact);
+                if (index == 16)
+                    index = 8;
             }
             catch (const std::invalid_argument &e)
             {
@@ -83,10 +84,15 @@ int main()
             display_contact_list(pb, index);
             do
             {
+                std::string t_choice;
                 if (!(choice_index > 0 && choice_index <= index))
                     std::cout << "Wrong index, try again\n";
                 std::cout << "Enter you contact's index: ";
-                std::cin >> choice_index;
+                std::cin >> t_choice;
+                if (t_choice[0] >= '1' && t_choice[0] <= '8' && t_choice.length() == 1)
+                    choice_index = t_choice[0] - 48;
+                else
+                    choice_index = -1;
                 std::cin.ignore();
             }while(!(choice_index > 0 && choice_index <= index));
             t_contact = pb.get_contact(choice_index - 1);

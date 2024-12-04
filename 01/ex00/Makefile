@@ -29,7 +29,7 @@ ${NAME}: ${OBJS}
 		@${CC} ${CFLAGS} ${CPPFLAGS} ${OBJS} -o ${NAME}
 		@echo "$(ORANGE)[BraiiiiiiinnnzzzZ]:$(DEF_COLOR) exec file $(GREEN)=> Created!$(DEF_COLOR)"
 
-%.o: %.c
+%.o: %.cpp
 		@echo "Compiling $< with flags \"${CFLAGS}\" and \"${CPPFLAGS}\""
 		@${CC} ${CFLAGS} ${CPPFLAGS} -c $< -o $@
 		@echo "$(GREEN)Compilation of $< success$(DEF_COLOR)"
