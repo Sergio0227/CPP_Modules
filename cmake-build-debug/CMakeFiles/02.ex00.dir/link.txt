@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/02.ex00.dir/02/ex00/main.cpp.o CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.o -o 02.ex00

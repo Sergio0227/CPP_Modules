@@ -1,3 +1,7 @@
-//
-// Created by sandre-a on 12/5/24.
-//
+#include <iostream>
+
+int    main()
+{
+
+    return 0;
+}

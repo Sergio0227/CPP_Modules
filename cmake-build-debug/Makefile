@@ -246,6 +246,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/build
 .PHONY : 01.ex06/fast
 
+#=============================================================================
+# Target rules for targets named 02.ex00
+
+# Build rule for target.
+02.ex00: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02.ex00
+.PHONY : 02.ex00
+
+# fast build rule for target.
+02.ex00/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/build
+.PHONY : 02.ex00/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -798,6 +811,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/main.cpp.s
 .PHONY : 01/ex06/main.cpp.s
 
+02/ex00/Fixed.o: 02/ex00/Fixed.cpp.o
+.PHONY : 02/ex00/Fixed.o
+
+# target to build an object file
+02/ex00/Fixed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.o
+.PHONY : 02/ex00/Fixed.cpp.o
+
+02/ex00/Fixed.i: 02/ex00/Fixed.cpp.i
+.PHONY : 02/ex00/Fixed.i
+
+# target to preprocess a source file
+02/ex00/Fixed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.i
+.PHONY : 02/ex00/Fixed.cpp.i
+
+02/ex00/Fixed.s: 02/ex00/Fixed.cpp.s
+.PHONY : 02/ex00/Fixed.s
+
+# target to generate assembly for a file
+02/ex00/Fixed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.s
+.PHONY : 02/ex00/Fixed.cpp.s
+
+02/ex00/main.o: 02/ex00/main.cpp.o
+.PHONY : 02/ex00/main.o
+
+# target to build an object file
+02/ex00/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/main.cpp.o
+.PHONY : 02/ex00/main.cpp.o
+
+02/ex00/main.i: 02/ex00/main.cpp.i
+.PHONY : 02/ex00/main.i
+
+# target to preprocess a source file
+02/ex00/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/main.cpp.i
+.PHONY : 02/ex00/main.cpp.i
+
+02/ex00/main.s: 02/ex00/main.cpp.s
+.PHONY : 02/ex00/main.s
+
+# target to generate assembly for a file
+02/ex00/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/main.cpp.s
+.PHONY : 02/ex00/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -816,6 +877,7 @@ help:
 	@echo "... 01.ex04"
 	@echo "... 01.ex05"
 	@echo "... 01.ex06"
+	@echo "... 02.ex00"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -885,6 +947,12 @@ help:
 	@echo "... 01/ex06/main.o"
 	@echo "... 01/ex06/main.i"
 	@echo "... 01/ex06/main.s"
+	@echo "... 02/ex00/Fixed.o"
+	@echo "... 02/ex00/Fixed.i"
+	@echo "... 02/ex00/Fixed.s"
+	@echo "... 02/ex00/main.o"
+	@echo "... 02/ex00/main.i"
+	@echo "... 02/ex00/main.s"
 .PHONY : help
 
 

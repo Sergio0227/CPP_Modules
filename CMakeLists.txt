@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_BUILD_TYPE Debug)
 
 
-#############CPP MODULE01############
+#############CPP MODULE00############
 add_executable(00.ex00              #
         00/ex00/megaphone.cpp)      #
                                     #
@@ -22,7 +22,7 @@ add_executable(00.ex02              #
         00/ex02/tests.cpp)          #
 #####################################
 
-#############CPP MODULE02############
+#############CPP MODULE01############
 add_executable(01.ex00              #
         01/ex00/main.cpp            #
         01/ex00/Zombie.cpp          #
@@ -60,4 +60,20 @@ add_executable(01.ex06              #
         01/ex06/main.cpp            #
         01/ex06/Harl.cpp            #
         01/ex06/Harl.hpp)           #
+#####################################
+
+#############CPP MODULE02############
+add_executable(02.ex00              #
+        02/ex00/main.cpp            #
+        02/ex00/Fixed.cpp           #
+        02/ex00/Fixed.hpp)           #
+                                    #
+#add_executable(02.ex01              #
+#        02/ex01/main.cpp)           #
+                                    #
+#add_executable(02.ex02              #
+#        02/ex02/main.cpp)           #
+                                    #
+#add_executable(02.ex02              #
+#        02/ex03/main.cpp)           #
 #####################################
