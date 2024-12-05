@@ -50,4 +50,14 @@ add_executable(01.ex03              #
                                     #
 add_executable(01.ex04              #
         01/ex04/main.cpp)           #
+                                    #
+add_executable(01.ex05              #
+        01/ex05/main.cpp            #
+        01/ex05/Harl.cpp            #
+        01/ex05/Harl.hpp)           #
+                                    #
+add_executable(01.ex06              #
+        01/ex06/main.cpp            #
+        01/ex06/Harl.cpp            #
+        01/ex06/Harl.hpp)           #
 #####################################

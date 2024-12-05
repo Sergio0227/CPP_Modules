@@ -220,6 +220,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex04.dir/build.make CMakeFiles/01.ex04.dir/build
 .PHONY : 01.ex04/fast
 
+#=============================================================================
+# Target rules for targets named 01.ex05
+
+# Build rule for target.
+01.ex05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01.ex05
+.PHONY : 01.ex05
+
+# fast build rule for target.
+01.ex05/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/build
+.PHONY : 01.ex05/fast
+
+#=============================================================================
+# Target rules for targets named 01.ex06
+
+# Build rule for target.
+01.ex06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01.ex06
+.PHONY : 01.ex06
+
+# fast build rule for target.
+01.ex06/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/build
+.PHONY : 01.ex06/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -676,6 +702,102 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex04.dir/build.make CMakeFiles/01.ex04.dir/01/ex04/main.cpp.s
 .PHONY : 01/ex04/main.cpp.s
 
+01/ex05/Harl.o: 01/ex05/Harl.cpp.o
+.PHONY : 01/ex05/Harl.o
+
+# target to build an object file
+01/ex05/Harl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.o
+.PHONY : 01/ex05/Harl.cpp.o
+
+01/ex05/Harl.i: 01/ex05/Harl.cpp.i
+.PHONY : 01/ex05/Harl.i
+
+# target to preprocess a source file
+01/ex05/Harl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.i
+.PHONY : 01/ex05/Harl.cpp.i
+
+01/ex05/Harl.s: 01/ex05/Harl.cpp.s
+.PHONY : 01/ex05/Harl.s
+
+# target to generate assembly for a file
+01/ex05/Harl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.s
+.PHONY : 01/ex05/Harl.cpp.s
+
+01/ex05/main.o: 01/ex05/main.cpp.o
+.PHONY : 01/ex05/main.o
+
+# target to build an object file
+01/ex05/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/main.cpp.o
+.PHONY : 01/ex05/main.cpp.o
+
+01/ex05/main.i: 01/ex05/main.cpp.i
+.PHONY : 01/ex05/main.i
+
+# target to preprocess a source file
+01/ex05/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/main.cpp.i
+.PHONY : 01/ex05/main.cpp.i
+
+01/ex05/main.s: 01/ex05/main.cpp.s
+.PHONY : 01/ex05/main.s
+
+# target to generate assembly for a file
+01/ex05/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex05.dir/build.make CMakeFiles/01.ex05.dir/01/ex05/main.cpp.s
+.PHONY : 01/ex05/main.cpp.s
+
+01/ex06/Harl.o: 01/ex06/Harl.cpp.o
+.PHONY : 01/ex06/Harl.o
+
+# target to build an object file
+01/ex06/Harl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.o
+.PHONY : 01/ex06/Harl.cpp.o
+
+01/ex06/Harl.i: 01/ex06/Harl.cpp.i
+.PHONY : 01/ex06/Harl.i
+
+# target to preprocess a source file
+01/ex06/Harl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.i
+.PHONY : 01/ex06/Harl.cpp.i
+
+01/ex06/Harl.s: 01/ex06/Harl.cpp.s
+.PHONY : 01/ex06/Harl.s
+
+# target to generate assembly for a file
+01/ex06/Harl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.s
+.PHONY : 01/ex06/Harl.cpp.s
+
+01/ex06/main.o: 01/ex06/main.cpp.o
+.PHONY : 01/ex06/main.o
+
+# target to build an object file
+01/ex06/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/main.cpp.o
+.PHONY : 01/ex06/main.cpp.o
+
+01/ex06/main.i: 01/ex06/main.cpp.i
+.PHONY : 01/ex06/main.i
+
+# target to preprocess a source file
+01/ex06/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/main.cpp.i
+.PHONY : 01/ex06/main.cpp.i
+
+01/ex06/main.s: 01/ex06/main.cpp.s
+.PHONY : 01/ex06/main.s
+
+# target to generate assembly for a file
+01/ex06/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01.ex06.dir/build.make CMakeFiles/01.ex06.dir/01/ex06/main.cpp.s
+.PHONY : 01/ex06/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -692,6 +814,8 @@ help:
 	@echo "... 01.ex02"
 	@echo "... 01.ex03"
 	@echo "... 01.ex04"
+	@echo "... 01.ex05"
+	@echo "... 01.ex06"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -749,6 +873,18 @@ help:
 	@echo "... 01/ex04/main.o"
 	@echo "... 01/ex04/main.i"
 	@echo "... 01/ex04/main.s"
+	@echo "... 01/ex05/Harl.o"
+	@echo "... 01/ex05/Harl.i"
+	@echo "... 01/ex05/Harl.s"
+	@echo "... 01/ex05/main.o"
+	@echo "... 01/ex05/main.i"
+	@echo "... 01/ex05/main.s"
+	@echo "... 01/ex06/Harl.o"
+	@echo "... 01/ex06/Harl.i"
+	@echo "... 01/ex06/Harl.s"
+	@echo "... 01/ex06/main.o"
+	@echo "... 01/ex06/main.i"
+	@echo "... 01/ex06/main.s"
 .PHONY : help
 
 

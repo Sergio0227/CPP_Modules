@@ -4,7 +4,7 @@ SRC			=	main.cpp \
 
 OBJS		= ${SRC:.cpp=.o}
 NAME		= phonebook
-CFLAGS		= -Werror -Wall -Wextra -g
+CFLAGS		= -Werror -Wall -Wextra
 CPPFLAGS	= -std=c++98
 CC			= c++
 RM			= rm -rf
