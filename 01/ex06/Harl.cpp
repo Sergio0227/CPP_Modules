@@ -31,7 +31,7 @@ void Harl::complain(std::string level)
         {
             while (i < 4)
                 (this->*complaints[i++])();
-            return; 
+            return;
         }
     }
     std::cout << "No Valid Level.\n";
