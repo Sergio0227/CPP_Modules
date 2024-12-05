@@ -1,4 +1,4 @@
-SRC				=	main.
+SRC				=	main.cpp
 
 OBJS			= ${SRC:.cpp=.o}
 NAME			= brain
