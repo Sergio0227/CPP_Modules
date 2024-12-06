@@ -1,11 +1,11 @@
 SRC				=	main.cpp
 
-OBJS			= ${SRC:.cpp=.o}
-NAME			= canonical
-CFLAGS			= -Werror -Wall -Wextra
-CPPFLAGS		= -std=c++98
-CC				= c++
-RM				= rm -rf
+OBJS			=	${SRC:.cpp=.o}
+NAME			=	canonical
+CFLAGS			=	-Werror -Wall -Wextra
+CPPFLAGS		=	-std=c++98
+CC				=	c++
+RM				=	rm -rf
 
 # Define colors
 DEF_COLOR = \033[0;39m

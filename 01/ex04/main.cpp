@@ -18,22 +18,16 @@ int main(int argc, char *argv[])
 
     while (std::getline(file1, line))
     {
-        if (line.find(s1) != std::string::npos)
+        size_t pos = 0;
+        while ((pos = line.find(s1, pos)) != std::string::npos)
         {
-            std::string new_line;
-            new_line = line.substr(0, line.find(s1));
-            new_line += s2;
-            outfile << new_line;
-            if (line[line.find(s1) + s1.size()] != 0)
-            {
-                new_line = line.substr(line.find(s1) + s1.size());
-                outfile << new_line << std::endl;
-            }
-            else
-                std::cout << std::endl;
+            std::string new_line = line.substr(0, pos) + s2;
+            if (line[pos + s1.size()] != '\0')
+                new_line += line.substr(pos + s1.size());
+            line = new_line;
+            pos += s2.length();
         }
-        else
-            outfile << line << std::endl;
+        outfile << line << std::endl;
     }
     return 0;
 }
