@@ -5,6 +5,18 @@ Fixed::Fixed(void) : fixed_point_nbr(0)
     std::cout << "Default constructor called" << std::endl;
 }
 
+Fixed::Fixed(int tmp_nbr)
+{
+    std::cout << "Int constructor called" << std::endl;
+    this->fixed_point_nbr = tmp_nbr;
+}
+
+Fixed::Fixed(float tmp_nbr)
+{
+    std::cout << "Float constructor called" << std::endl;
+    this->fixed_point_nbr = tmp_nbr;
+}
+
 Fixed::Fixed(Fixed const &src)
 {
     std::cout << "Copy constructor called" << std::endl;

@@ -25,14 +25,24 @@ void Harl::complain(std::string level)
     void (Harl::*complaints[])() = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };
     std::string levels[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 
-    for (int i = 0; i < 4; i++)
+    int i;
+    for (i = 0; i < 4 && level != levels[i]; ++i)
+        ;
+    switch (i)
     {
-        if (level == levels[i])
-        {
-            while (i < 4)
-                (this->*complaints[i++])();
-            return;
-        }
+        case 0:
+            (this->*complaints[0])();
+            //fallthrough
+        case 1:
+            (this->*complaints[1])();
+            //fallthrough
+        case 2:
+            (this->*complaints[2])();
+            //fallthrough
+        case 3:
+            (this->*complaints[3])();
+            break;
+        default:
+            std::cout << "No Valid Level.\n";
     }
-    std::cout << "No Valid Level.\n";
 }

@@ -66,10 +66,12 @@ add_executable(01.ex06              #
 add_executable(02.ex00              #
         02/ex00/main.cpp            #
         02/ex00/Fixed.cpp           #
-        02/ex00/Fixed.hpp)           #
+        02/ex00/Fixed.hpp)          #
                                     #
-#add_executable(02.ex01              #
-#        02/ex01/main.cpp)           #
+add_executable(02.ex01              #
+        02/ex01/main.cpp            #
+        02/ex01/Fixed.cpp           #
+        02/ex01/Fixed.hpp)          #
                                     #
 #add_executable(02.ex02              #
 #        02/ex02/main.cpp)           #

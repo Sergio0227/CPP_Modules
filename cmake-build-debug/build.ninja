@@ -295,6 +295,18 @@ build CMakeFiles/01.ex03.dir/01/ex03/main.cpp.o: CXX_COMPILER__01.2eex03_unscann
   OBJECT_DIR = CMakeFiles/01.ex03.dir
   OBJECT_FILE_DIR = CMakeFiles/01.ex03.dir/01/ex03
 
+build CMakeFiles/01.ex03.dir/01/ex03/HumanA.cpp.o: CXX_COMPILER__01.2eex03_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex03/HumanA.cpp || cmake_object_order_depends_target_01.ex03
+  DEP_FILE = CMakeFiles/01.ex03.dir/01/ex03/HumanA.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex03.dir/01/ex03
+
+build CMakeFiles/01.ex03.dir/01/ex03/HumanB.cpp.o: CXX_COMPILER__01.2eex03_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex03/HumanB.cpp || cmake_object_order_depends_target_01.ex03
+  DEP_FILE = CMakeFiles/01.ex03.dir/01/ex03/HumanB.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex03.dir/01/ex03
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01.ex03
@@ -303,13 +315,155 @@ build CMakeFiles/01.ex03.dir/01/ex03/main.cpp.o: CXX_COMPILER__01.2eex03_unscann
 #############################################
 # Link the executable 01.ex03
 
-build 01.ex03: CXX_EXECUTABLE_LINKER__01.2eex03_Debug CMakeFiles/01.ex03.dir/01/ex03/Weapon.cpp.o CMakeFiles/01.ex03.dir/01/ex03/main.cpp.o
+build 01.ex03: CXX_EXECUTABLE_LINKER__01.2eex03_Debug CMakeFiles/01.ex03.dir/01/ex03/Weapon.cpp.o CMakeFiles/01.ex03.dir/01/ex03/main.cpp.o CMakeFiles/01.ex03.dir/01/ex03/HumanA.cpp.o CMakeFiles/01.ex03.dir/01/ex03/HumanB.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/01.ex03.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = 01.ex03
   TARGET_PDB = 01.ex03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01.ex04
+
+
+#############################################
+# Order-only phony target for 01.ex04
+
+build cmake_object_order_depends_target_01.ex04: phony || CMakeFiles/01.ex04.dir
+
+build CMakeFiles/01.ex04.dir/01/ex04/main.cpp.o: CXX_COMPILER__01.2eex04_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex04/main.cpp || cmake_object_order_depends_target_01.ex04
+  DEP_FILE = CMakeFiles/01.ex04.dir/01/ex04/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex04.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex04.dir/01/ex04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01.ex04
+
+
+#############################################
+# Link the executable 01.ex04
+
+build 01.ex04: CXX_EXECUTABLE_LINKER__01.2eex04_Debug CMakeFiles/01.ex04.dir/01/ex04/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01.ex04.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01.ex04
+  TARGET_PDB = 01.ex04.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01.ex05
+
+
+#############################################
+# Order-only phony target for 01.ex05
+
+build cmake_object_order_depends_target_01.ex05: phony || CMakeFiles/01.ex05.dir
+
+build CMakeFiles/01.ex05.dir/01/ex05/main.cpp.o: CXX_COMPILER__01.2eex05_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex05/main.cpp || cmake_object_order_depends_target_01.ex05
+  DEP_FILE = CMakeFiles/01.ex05.dir/01/ex05/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex05.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex05.dir/01/ex05
+
+build CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.o: CXX_COMPILER__01.2eex05_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex05/Harl.cpp || cmake_object_order_depends_target_01.ex05
+  DEP_FILE = CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex05.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex05.dir/01/ex05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01.ex05
+
+
+#############################################
+# Link the executable 01.ex05
+
+build 01.ex05: CXX_EXECUTABLE_LINKER__01.2eex05_Debug CMakeFiles/01.ex05.dir/01/ex05/main.cpp.o CMakeFiles/01.ex05.dir/01/ex05/Harl.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01.ex05.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01.ex05
+  TARGET_PDB = 01.ex05.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01.ex06
+
+
+#############################################
+# Order-only phony target for 01.ex06
+
+build cmake_object_order_depends_target_01.ex06: phony || CMakeFiles/01.ex06.dir
+
+build CMakeFiles/01.ex06.dir/01/ex06/main.cpp.o: CXX_COMPILER__01.2eex06_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex06/main.cpp || cmake_object_order_depends_target_01.ex06
+  DEP_FILE = CMakeFiles/01.ex06.dir/01/ex06/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex06.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex06.dir/01/ex06
+
+build CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.o: CXX_COMPILER__01.2eex06_unscanned_Debug /home/sandre-a/42_cursus/Cpp/01/ex06/Harl.cpp || cmake_object_order_depends_target_01.ex06
+  DEP_FILE = CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01.ex06.dir
+  OBJECT_FILE_DIR = CMakeFiles/01.ex06.dir/01/ex06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01.ex06
+
+
+#############################################
+# Link the executable 01.ex06
+
+build 01.ex06: CXX_EXECUTABLE_LINKER__01.2eex06_Debug CMakeFiles/01.ex06.dir/01/ex06/main.cpp.o CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01.ex06.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01.ex06
+  TARGET_PDB = 01.ex06.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02.ex00
+
+
+#############################################
+# Order-only phony target for 02.ex00
+
+build cmake_object_order_depends_target_02.ex00: phony || CMakeFiles/02.ex00.dir
+
+build CMakeFiles/02.ex00.dir/02/ex00/main.cpp.o: CXX_COMPILER__02.2eex00_unscanned_Debug /home/sandre-a/42_cursus/Cpp/02/ex00/main.cpp || cmake_object_order_depends_target_02.ex00
+  DEP_FILE = CMakeFiles/02.ex00.dir/02/ex00/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/02.ex00.dir/02/ex00
+
+build CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.o: CXX_COMPILER__02.2eex00_unscanned_Debug /home/sandre-a/42_cursus/Cpp/02/ex00/Fixed.cpp || cmake_object_order_depends_target_02.ex00
+  DEP_FILE = CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/02.ex00.dir/02/ex00
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02.ex00
+
+
+#############################################
+# Link the executable 02.ex00
+
+build 02.ex00: CXX_EXECUTABLE_LINKER__02.2eex00_Debug CMakeFiles/02.ex00.dir/02/ex00/main.cpp.o CMakeFiles/02.ex00.dir/02/ex00/Fixed.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02.ex00.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02.ex00
+  TARGET_PDB = 02.ex00.dbg
 
 
 #############################################
@@ -345,7 +499,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/sandre-a/42_cursus/Cpp/cmake-build-debug
 
-build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03
+build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03 01.ex04 01.ex05 01.ex06 02.ex00
 
 # =============================================================================
 # Built-in targets

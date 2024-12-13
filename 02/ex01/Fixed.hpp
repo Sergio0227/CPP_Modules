@@ -9,6 +9,8 @@ private:
 
 public:
     Fixed(void);
+    Fixed(int tmp_nbr);
+    Fixed(float tmp_nbr);
     Fixed(Fixed const &src);
     ~Fixed(void);
 
