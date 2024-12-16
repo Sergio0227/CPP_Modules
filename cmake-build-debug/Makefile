@@ -259,6 +259,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/build
 .PHONY : 02.ex00/fast
 
+#=============================================================================
+# Target rules for targets named 02.ex01
+
+# Build rule for target.
+02.ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02.ex01
+.PHONY : 02.ex01
+
+# fast build rule for target.
+02.ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/build
+.PHONY : 02.ex01/fast
+
+#=============================================================================
+# Target rules for targets named 02.ex02
+
+# Build rule for target.
+02.ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02.ex02
+.PHONY : 02.ex02
+
+# fast build rule for target.
+02.ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/build
+.PHONY : 02.ex02/fast
+
+#=============================================================================
+# Target rules for targets named 02.ex03
+
+# Build rule for target.
+02.ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02.ex03
+.PHONY : 02.ex03
+
+# fast build rule for target.
+02.ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/build
+.PHONY : 02.ex03/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -859,6 +898,198 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex00.dir/build.make CMakeFiles/02.ex00.dir/02/ex00/main.cpp.s
 .PHONY : 02/ex00/main.cpp.s
 
+02/ex01/Fixed.o: 02/ex01/Fixed.cpp.o
+.PHONY : 02/ex01/Fixed.o
+
+# target to build an object file
+02/ex01/Fixed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/Fixed.cpp.o
+.PHONY : 02/ex01/Fixed.cpp.o
+
+02/ex01/Fixed.i: 02/ex01/Fixed.cpp.i
+.PHONY : 02/ex01/Fixed.i
+
+# target to preprocess a source file
+02/ex01/Fixed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/Fixed.cpp.i
+.PHONY : 02/ex01/Fixed.cpp.i
+
+02/ex01/Fixed.s: 02/ex01/Fixed.cpp.s
+.PHONY : 02/ex01/Fixed.s
+
+# target to generate assembly for a file
+02/ex01/Fixed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/Fixed.cpp.s
+.PHONY : 02/ex01/Fixed.cpp.s
+
+02/ex01/main.o: 02/ex01/main.cpp.o
+.PHONY : 02/ex01/main.o
+
+# target to build an object file
+02/ex01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/main.cpp.o
+.PHONY : 02/ex01/main.cpp.o
+
+02/ex01/main.i: 02/ex01/main.cpp.i
+.PHONY : 02/ex01/main.i
+
+# target to preprocess a source file
+02/ex01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/main.cpp.i
+.PHONY : 02/ex01/main.cpp.i
+
+02/ex01/main.s: 02/ex01/main.cpp.s
+.PHONY : 02/ex01/main.s
+
+# target to generate assembly for a file
+02/ex01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex01.dir/build.make CMakeFiles/02.ex01.dir/02/ex01/main.cpp.s
+.PHONY : 02/ex01/main.cpp.s
+
+02/ex02/Fixed.o: 02/ex02/Fixed.cpp.o
+.PHONY : 02/ex02/Fixed.o
+
+# target to build an object file
+02/ex02/Fixed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/Fixed.cpp.o
+.PHONY : 02/ex02/Fixed.cpp.o
+
+02/ex02/Fixed.i: 02/ex02/Fixed.cpp.i
+.PHONY : 02/ex02/Fixed.i
+
+# target to preprocess a source file
+02/ex02/Fixed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/Fixed.cpp.i
+.PHONY : 02/ex02/Fixed.cpp.i
+
+02/ex02/Fixed.s: 02/ex02/Fixed.cpp.s
+.PHONY : 02/ex02/Fixed.s
+
+# target to generate assembly for a file
+02/ex02/Fixed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/Fixed.cpp.s
+.PHONY : 02/ex02/Fixed.cpp.s
+
+02/ex02/main.o: 02/ex02/main.cpp.o
+.PHONY : 02/ex02/main.o
+
+# target to build an object file
+02/ex02/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/main.cpp.o
+.PHONY : 02/ex02/main.cpp.o
+
+02/ex02/main.i: 02/ex02/main.cpp.i
+.PHONY : 02/ex02/main.i
+
+# target to preprocess a source file
+02/ex02/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/main.cpp.i
+.PHONY : 02/ex02/main.cpp.i
+
+02/ex02/main.s: 02/ex02/main.cpp.s
+.PHONY : 02/ex02/main.s
+
+# target to generate assembly for a file
+02/ex02/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex02.dir/build.make CMakeFiles/02.ex02.dir/02/ex02/main.cpp.s
+.PHONY : 02/ex02/main.cpp.s
+
+02/ex03/Fixed.o: 02/ex03/Fixed.cpp.o
+.PHONY : 02/ex03/Fixed.o
+
+# target to build an object file
+02/ex03/Fixed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Fixed.cpp.o
+.PHONY : 02/ex03/Fixed.cpp.o
+
+02/ex03/Fixed.i: 02/ex03/Fixed.cpp.i
+.PHONY : 02/ex03/Fixed.i
+
+# target to preprocess a source file
+02/ex03/Fixed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Fixed.cpp.i
+.PHONY : 02/ex03/Fixed.cpp.i
+
+02/ex03/Fixed.s: 02/ex03/Fixed.cpp.s
+.PHONY : 02/ex03/Fixed.s
+
+# target to generate assembly for a file
+02/ex03/Fixed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Fixed.cpp.s
+.PHONY : 02/ex03/Fixed.cpp.s
+
+02/ex03/Point.o: 02/ex03/Point.cpp.o
+.PHONY : 02/ex03/Point.o
+
+# target to build an object file
+02/ex03/Point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Point.cpp.o
+.PHONY : 02/ex03/Point.cpp.o
+
+02/ex03/Point.i: 02/ex03/Point.cpp.i
+.PHONY : 02/ex03/Point.i
+
+# target to preprocess a source file
+02/ex03/Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Point.cpp.i
+.PHONY : 02/ex03/Point.cpp.i
+
+02/ex03/Point.s: 02/ex03/Point.cpp.s
+.PHONY : 02/ex03/Point.s
+
+# target to generate assembly for a file
+02/ex03/Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/Point.cpp.s
+.PHONY : 02/ex03/Point.cpp.s
+
+02/ex03/bsp.o: 02/ex03/bsp.cpp.o
+.PHONY : 02/ex03/bsp.o
+
+# target to build an object file
+02/ex03/bsp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/bsp.cpp.o
+.PHONY : 02/ex03/bsp.cpp.o
+
+02/ex03/bsp.i: 02/ex03/bsp.cpp.i
+.PHONY : 02/ex03/bsp.i
+
+# target to preprocess a source file
+02/ex03/bsp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/bsp.cpp.i
+.PHONY : 02/ex03/bsp.cpp.i
+
+02/ex03/bsp.s: 02/ex03/bsp.cpp.s
+.PHONY : 02/ex03/bsp.s
+
+# target to generate assembly for a file
+02/ex03/bsp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/bsp.cpp.s
+.PHONY : 02/ex03/bsp.cpp.s
+
+02/ex03/main.o: 02/ex03/main.cpp.o
+.PHONY : 02/ex03/main.o
+
+# target to build an object file
+02/ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/main.cpp.o
+.PHONY : 02/ex03/main.cpp.o
+
+02/ex03/main.i: 02/ex03/main.cpp.i
+.PHONY : 02/ex03/main.i
+
+# target to preprocess a source file
+02/ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/main.cpp.i
+.PHONY : 02/ex03/main.cpp.i
+
+02/ex03/main.s: 02/ex03/main.cpp.s
+.PHONY : 02/ex03/main.s
+
+# target to generate assembly for a file
+02/ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/main.cpp.s
+.PHONY : 02/ex03/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -878,6 +1109,9 @@ help:
 	@echo "... 01.ex05"
 	@echo "... 01.ex06"
 	@echo "... 02.ex00"
+	@echo "... 02.ex01"
+	@echo "... 02.ex02"
+	@echo "... 02.ex03"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -953,6 +1187,30 @@ help:
 	@echo "... 02/ex00/main.o"
 	@echo "... 02/ex00/main.i"
 	@echo "... 02/ex00/main.s"
+	@echo "... 02/ex01/Fixed.o"
+	@echo "... 02/ex01/Fixed.i"
+	@echo "... 02/ex01/Fixed.s"
+	@echo "... 02/ex01/main.o"
+	@echo "... 02/ex01/main.i"
+	@echo "... 02/ex01/main.s"
+	@echo "... 02/ex02/Fixed.o"
+	@echo "... 02/ex02/Fixed.i"
+	@echo "... 02/ex02/Fixed.s"
+	@echo "... 02/ex02/main.o"
+	@echo "... 02/ex02/main.i"
+	@echo "... 02/ex02/main.s"
+	@echo "... 02/ex03/Fixed.o"
+	@echo "... 02/ex03/Fixed.i"
+	@echo "... 02/ex03/Fixed.s"
+	@echo "... 02/ex03/Point.o"
+	@echo "... 02/ex03/Point.i"
+	@echo "... 02/ex03/Point.s"
+	@echo "... 02/ex03/bsp.o"
+	@echo "... 02/ex03/bsp.i"
+	@echo "... 02/ex03/bsp.s"
+	@echo "... 02/ex03/main.o"
+	@echo "... 02/ex03/main.i"
+	@echo "... 02/ex03/main.s"
 .PHONY : help
 
 

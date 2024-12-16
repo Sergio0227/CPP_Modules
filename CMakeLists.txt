@@ -73,9 +73,17 @@ add_executable(02.ex01              #
         02/ex01/Fixed.cpp           #
         02/ex01/Fixed.hpp)          #
                                     #
-#add_executable(02.ex02              #
-#        02/ex02/main.cpp)           #
+add_executable(02.ex02              #
+        02/ex02/main.cpp            #
+        02/ex02/Fixed.cpp           #
+        02/ex02/Fixed.hpp)          #
                                     #
-#add_executable(02.ex02              #
-#        02/ex03/main.cpp)           #
+add_executable(02.ex03              #
+        02/ex03/Fixed.cpp           #
+        02/ex03/Fixed.hpp           #
+        02/ex03/main.cpp            #
+        02/ex03/Point.cpp           #
+        02/ex03/Point.cpp           #
+        02/ex03/bsp.cpp)            #
 #####################################
+

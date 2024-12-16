@@ -4,8 +4,8 @@
 
 class Fixed {
 private:
-    int fixed_point_nbr;
-    static const int nbr_fractional_bits = 8;
+    int nbr;
+    static const int fractional_bits = 8;
 
 public:
     Fixed(void);

@@ -1,7 +1,8 @@
-SRC				=	main.cpp
+SRC				=	main.cpp	\
+                    Fixed.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			=
+NAME			= evenMoreUsefulProgram
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++
@@ -22,9 +23,9 @@ WHITE = \033[0;97m
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-		@echo "$(ORANGE)[]:$(DEF_COLOR) Linking object files to create executable $(GREEN)${NAME}$(DEF_COLOR)"
+		@echo "$(ORANGE)[Now we’re talking]:$(DEF_COLOR) Linking object files to create executable $(GREEN)${NAME}$(DEF_COLOR)"
 		@${CC} ${CFLAGS} ${CPPFLAGS} ${OBJS} -o ${NAME}
-		@echo "$(ORANGE)[]:$(DEF_COLOR) exec file $(GREEN)=> Created!$(DEF_COLOR)"
+		@echo "$(ORANGE)[Now we’re talking]:$(DEF_COLOR) exec file $(GREEN)=> Created!$(DEF_COLOR)"
 
 %.o: %.cpp
 		@echo "Compiling $< with flags \"${CFLAGS}\" and \"${CPPFLAGS}\""
@@ -33,10 +34,10 @@ ${NAME}: ${OBJS}
 
 clean:
 		@${RM} ${OBJS}
-		@echo -n "$(CYAN)[]:$(DEF_COLOR) object files$(RED) \t => Removed!$(DEF_COLOR)\n";
+		@echo -n "$(CYAN)[Now we’re talking]:$(DEF_COLOR) object files$(RED) \t => Removed!$(DEF_COLOR)\n";
 
 fclean: clean
-		@echo -n "$(CYAN)[]:$(DEF_COLOR) exec. files$(RED)  => Removed!$(DEF_COLOR)\n";
+		@echo -n "$(CYAN)[Now we’re talking]:$(DEF_COLOR) exec. files$(RED)  => Removed!$(DEF_COLOR)\n";
 		@${RM} ${NAME};
 
 

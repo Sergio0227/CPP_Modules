@@ -1,4 +1,5 @@
-SRC				=	main.cpp
+SRC				=	main.cpp	\
+					Fixed.cpp
 
 OBJS			=	${SRC:.cpp=.o}
 NAME			=	canonical
