@@ -298,6 +298,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/build
 .PHONY : 02.ex03/fast
 
+#=============================================================================
+# Target rules for targets named 03.ex00
+
+# Build rule for target.
+03.ex00: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03.ex00
+.PHONY : 03.ex00
+
+# fast build rule for target.
+03.ex00/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/build
+.PHONY : 03.ex00/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -1090,6 +1103,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/02.ex03.dir/build.make CMakeFiles/02.ex03.dir/02/ex03/main.cpp.s
 .PHONY : 02/ex03/main.cpp.s
 
+03/ex00/ClapTrap.o: 03/ex00/ClapTrap.cpp.o
+.PHONY : 03/ex00/ClapTrap.o
+
+# target to build an object file
+03/ex00/ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/ClapTrap.cpp.o
+.PHONY : 03/ex00/ClapTrap.cpp.o
+
+03/ex00/ClapTrap.i: 03/ex00/ClapTrap.cpp.i
+.PHONY : 03/ex00/ClapTrap.i
+
+# target to preprocess a source file
+03/ex00/ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/ClapTrap.cpp.i
+.PHONY : 03/ex00/ClapTrap.cpp.i
+
+03/ex00/ClapTrap.s: 03/ex00/ClapTrap.cpp.s
+.PHONY : 03/ex00/ClapTrap.s
+
+# target to generate assembly for a file
+03/ex00/ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/ClapTrap.cpp.s
+.PHONY : 03/ex00/ClapTrap.cpp.s
+
+03/ex00/main.o: 03/ex00/main.cpp.o
+.PHONY : 03/ex00/main.o
+
+# target to build an object file
+03/ex00/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/main.cpp.o
+.PHONY : 03/ex00/main.cpp.o
+
+03/ex00/main.i: 03/ex00/main.cpp.i
+.PHONY : 03/ex00/main.i
+
+# target to preprocess a source file
+03/ex00/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/main.cpp.i
+.PHONY : 03/ex00/main.cpp.i
+
+03/ex00/main.s: 03/ex00/main.cpp.s
+.PHONY : 03/ex00/main.s
+
+# target to generate assembly for a file
+03/ex00/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex00.dir/build.make CMakeFiles/03.ex00.dir/03/ex00/main.cpp.s
+.PHONY : 03/ex00/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1112,6 +1173,7 @@ help:
 	@echo "... 02.ex01"
 	@echo "... 02.ex02"
 	@echo "... 02.ex03"
+	@echo "... 03.ex00"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -1211,6 +1273,12 @@ help:
 	@echo "... 02/ex03/main.o"
 	@echo "... 02/ex03/main.i"
 	@echo "... 02/ex03/main.s"
+	@echo "... 03/ex00/ClapTrap.o"
+	@echo "... 03/ex00/ClapTrap.i"
+	@echo "... 03/ex00/ClapTrap.s"
+	@echo "... 03/ex00/main.o"
+	@echo "... 03/ex00/main.i"
+	@echo "... 03/ex00/main.s"
 .PHONY : help
 
 

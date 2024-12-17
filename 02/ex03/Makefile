@@ -1,5 +1,7 @@
 SRC				=	main.cpp	\
-                    Fixed.cpp
+                    Fixed.cpp	\
+                    Point.cpp	\
+                    bsp.cpp
 
 OBJS			= ${SRC:.cpp=.o}
 NAME			= bsp

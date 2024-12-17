@@ -1,6 +1,9 @@
+#pragma once
 #ifndef CPP_FIXED_HPP
 #define CPP_FIXED_HPP
 #include <iostream>
+#include <cmath>
+
 
 class Fixed {
 private:

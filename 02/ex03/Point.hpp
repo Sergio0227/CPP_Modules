@@ -1,7 +1,7 @@
+#pragma once
 #ifndef POINT_HPP
 #define POINT_HPP
 #include "Fixed.hpp"
-
 
 class Point {
 
@@ -17,8 +17,8 @@ private:
 
     Point &operator=(Point const &ref);
 
-    const Fixed &Point::getX(void) const;
-    const Fixed &Point::getY(void) const;
+    const Fixed &getX(void) const;
+    const Fixed &getY(void) const;
 
 };
 
