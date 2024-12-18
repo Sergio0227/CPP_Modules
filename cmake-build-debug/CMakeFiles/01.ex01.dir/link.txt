@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/01.ex01.dir/01/ex01/main.cpp.o CMakeFiles/01.ex01.dir/01/ex01/Zombie.cpp.o CMakeFiles/01.ex01.dir/01/ex01/zombieHorde.cpp.o -o 01.ex01

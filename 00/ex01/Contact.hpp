@@ -13,6 +13,7 @@ class Contact {
         std::string number;
         std::string secret;
 
+
     public:
     Contact(void);
     ~Contact(void);

@@ -96,9 +96,8 @@ add_executable(03.ex00              #
 add_executable(03.ex01              #
         03/ex01/main.cpp            #
         03/ex01/ClapTrap.cpp        #
-        03/ex01/ClapTrap.hpp
-        #
-        #
-)       #
+        03/ex01/ClapTrap.hpp        #
+        03/ex01/ScavTrap.cpp        #
+        03/ex01/ScavTrap.hpp)       #
                                     #
 #####################################

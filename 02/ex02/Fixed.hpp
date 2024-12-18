@@ -47,6 +47,7 @@ public:
     static Fixed const &max(Fixed const &a, Fixed const &b);
 };
 
+//overloaded insertion operator
 std::ostream&	operator<<(std::ostream &os, Fixed const &fixed);
 
 #endif

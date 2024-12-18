@@ -1,18 +1,19 @@
 #pragma once
-#ifndef CPP_SCAVTRAP_HPP
-#define CPP_SCAVTRAP_HPP
+#ifndef SCAVTRAP_HPP
+#define SCAVTRAP_HPP
 #include <string>
+
 
 class ScavTrap {
 private:
 
 public:
-    ScavTrap();
+    ScavTrap(void);
     ScavTrap(std::string const &name);
-    ~ScavTrap();
+    ~ScavTrap(void);
     ScavTrap(ScavTrap const &src);
-    ScavTrap &operator=(ScavTrap const &src);
+    ScavTrap& operator=(ScavTrap const &src);
 };
 
 
-#endif //CPP_SCAVTRAP_HPP
+#endif //SCAVTRAP_HPP
