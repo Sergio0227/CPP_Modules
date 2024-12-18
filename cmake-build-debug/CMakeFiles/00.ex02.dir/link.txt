@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/00.ex02.dir/00/ex02/Account.cpp.o CMakeFiles/00.ex02.dir/00/ex02/tests.cpp.o -o 00.ex02

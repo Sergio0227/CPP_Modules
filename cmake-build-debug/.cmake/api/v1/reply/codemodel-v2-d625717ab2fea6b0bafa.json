@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex00-Debug-d985f18db934f66a250b.json",
+					"name" : "00.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex01-Debug-8429a8aa4924fc310d58.json",
+					"name" : "00.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex02-Debug-9abfa32773b97f3189c1.json",
+					"name" : "00.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex00-Debug-9aff47ef9d881bf02e36.json",
+					"name" : "01.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex01-Debug-f8f108ab7368efb12bbe.json",
+					"name" : "01.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex02-Debug-a40bb4e02005528b44c0.json",
+					"name" : "01.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex03-Debug-0515867b0b160b142940.json",
+					"name" : "01.ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex04-Debug-56ffc07d8255c1f1c610.json",
+					"name" : "01.ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex05-Debug-f96c58b800db0530a29b.json",
+					"name" : "01.ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex06-Debug-0340b0e7c957986706ce.json",
+					"name" : "01.ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex00-Debug-3674122d0026930e15ca.json",
+					"name" : "02.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex01-Debug-659c391fa95dd8554c0a.json",
+					"name" : "02.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex02-Debug-f609ad68e7ccb7ffe733.json",
+					"name" : "02.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex03-Debug-50728b65192f8dd2a533.json",
+					"name" : "02.ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex00-Debug-0203baf9d49d3ccd1733.json",
+					"name" : "03.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex01-Debug-4632861c76e8e7685c05.json",
+					"name" : "03.ex01",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sandre-a/42_cursus/Cpp/cmake-build-debug",
+		"source" : "/home/sandre-a/42_cursus/Cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

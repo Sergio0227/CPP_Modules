@@ -7,7 +7,7 @@ ClapTrap::ClapTrap() : _name("unknown"), _energyPoints(10),
     std::cout << "ClapTrap Constructor called, " << this->_name << " Claptrap created" << std::endl;
 }
 
-ClapTrap::ClapTrap(const std::string &name) : _name(name), _energyPoints(10),
+ClapTrap::ClapTrap(std::string name) : _name(name), _energyPoints(10),
                                         _hitPoints(10), _attackDamage(0)
 {
     std::cout << "ClapTrap Constructor called, " << this->_name << " Claptrap created" << std::endl;
@@ -31,27 +31,27 @@ ClapTrap &ClapTrap::operator=(const ClapTrap &src)
 
 ClapTrap::~ClapTrap(void)
 {
-    std::cout << "ClapTrap Destructor called, " << this->_name << " destroyed" << std::endl;
+    std::cout << "ClapTrap Destructor called, " << this->_name << " Claptrap destroyed" << std::endl;
 }
 
 void ClapTrap::attack(const std::string& target)
 {
     if (this->_energyPoints && this->_hitPoints)
-        std::cout << "ClapTrap " << this->_name << " attacks " << target << ", causing " << this->_attackDamage
+        std::cout << "ClapTrap " << this->_name << "  attacks " << target << ", causing " << this->_attackDamage
                     << " points of damage!" << std::endl;
     else
-        std::cout << "ClapTrap " << this->_name << " couldnt attack, no energy points left or hit points" << std::endl;
+        std::cout << this->_name << " couldnt attack, no energy points left or hit points" << std::endl;
 }
 
 void ClapTrap::takeDamage(unsigned int amount)
 {
     if (this->_hitPoints)
     {
-        std::cout << "ClapTrap " << this->_name << " took " << amount << " of damage" << std::endl;
+        std::cout << this->_name << " took " << amount << " of damage" << std::endl;
         this->_hitPoints -= amount;
     }
     else
-        std::cout << "ClapTrap " << this->_name << " is already dead" << std::endl;
+        std::cout << this->_name << " is already dead" << std::endl;
 }
 
 void ClapTrap::beRepaired(unsigned int amount)
@@ -62,7 +62,7 @@ void ClapTrap::beRepaired(unsigned int amount)
         std::cout << this->_name << " healed " << amount << " points" << std::endl;
     }
     else
-        std::cout << "ClapTrap " << this->_name << " couldnt heal, no energy points left or hit points" << std::endl;
+        std::cout << this->_name << " couldnt heal, no energy points left or hit points" << std::endl;
 }
 
 std::string ClapTrap::getName()
