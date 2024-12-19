@@ -22,13 +22,13 @@ public:
     void takeDamage(unsigned int amount);
     void beRepaired(unsigned int amount);
 
-    std::string getName();
+    std::string getName(void) const;
     void setName(std::string name);
-    int getHitPoints(void);
+    int getHitPoints(void) const;
     void setHitPoints(int hitPoints);
-    int getEnergyPoints(void);
+    int getEnergyPoints(void) const;
     void setEnergyPoints(int energyPoints);
-    int getAttackDamage(void);
+    int getAttackDamage(void) const;
     void setAttackDamage(int attackDamage);
 };
 

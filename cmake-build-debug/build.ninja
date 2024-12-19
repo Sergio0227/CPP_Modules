@@ -668,6 +668,55 @@ build 03.ex01: CXX_EXECUTABLE_LINKER__03.2eex01_Debug CMakeFiles/03.ex01.dir/03/
   TARGET_FILE = 03.ex01
   TARGET_PDB = 03.ex01.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.ex02
+
+
+#############################################
+# Order-only phony target for 03.ex02
+
+build cmake_object_order_depends_target_03.ex02: phony || CMakeFiles/03.ex02.dir
+
+build CMakeFiles/03.ex02.dir/03/ex02/main.cpp.o: CXX_COMPILER__03.2eex02_unscanned_Debug /home/sandre-a/42_cursus/Cpp/03/ex02/main.cpp || cmake_object_order_depends_target_03.ex02
+  DEP_FILE = CMakeFiles/03.ex02.dir/03/ex02/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.ex02.dir/03/ex02
+
+build CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.o: CXX_COMPILER__03.2eex02_unscanned_Debug /home/sandre-a/42_cursus/Cpp/03/ex02/ClapTrap.cpp || cmake_object_order_depends_target_03.ex02
+  DEP_FILE = CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.ex02.dir/03/ex02
+
+build CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.o: CXX_COMPILER__03.2eex02_unscanned_Debug /home/sandre-a/42_cursus/Cpp/03/ex02/ScavTrap.cpp || cmake_object_order_depends_target_03.ex02
+  DEP_FILE = CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.ex02.dir/03/ex02
+
+build CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.o: CXX_COMPILER__03.2eex02_unscanned_Debug /home/sandre-a/42_cursus/Cpp/03/ex02/FragTrap.cpp || cmake_object_order_depends_target_03.ex02
+  DEP_FILE = CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/03.ex02.dir/03/ex02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.ex02
+
+
+#############################################
+# Link the executable 03.ex02
+
+build 03.ex02: CXX_EXECUTABLE_LINKER__03.2eex02_Debug CMakeFiles/03.ex02.dir/03/ex02/main.cpp.o CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.o CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.o CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03.ex02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03.ex02
+  TARGET_PDB = 03.ex02.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -702,7 +751,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/sandre-a/42_cursus/Cpp/cmake-build-debug
 
-build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03 01.ex04 01.ex05 01.ex06 02.ex00 02.ex01 02.ex02 02.ex03 03.ex00 03.ex01
+build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03 01.ex04 01.ex05 01.ex06 02.ex00 02.ex01 02.ex02 02.ex03 03.ex00 03.ex01 03.ex02
 
 # =============================================================================
 # Built-in targets

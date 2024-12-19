@@ -1,8 +1,8 @@
 SRC				=	main.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			= serena
-DISPLAY_NAME	= Serena, my love!
+NAME			= open
+DISPLAY_NAME	= Aaaaand... OPEN!
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++

@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/01.ex00.dir/01/ex00/main.cpp.o CMakeFiles/01.ex00.dir/01/ex00/Zombie.cpp.o CMakeFiles/01.ex00.dir/01/ex00/randomChump.cpp.o CMakeFiles/01.ex00.dir/01/ex00/newZombie.cpp.o -o 01.ex00

@@ -1,8 +1,8 @@
 SRC				=	main.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			= open
-DISPLAY_NAME	= Aaaaand... OPEN!
+NAME			= repetitive
+DISPLAY_NAME	= Repetitive work
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++
