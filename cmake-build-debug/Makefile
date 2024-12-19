@@ -324,6 +324,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex01.dir/build.make CMakeFiles/03.ex01.dir/build
 .PHONY : 03.ex01/fast
 
+#=============================================================================
+# Target rules for targets named 03.ex02
+
+# Build rule for target.
+03.ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03.ex02
+.PHONY : 03.ex02
+
+# fast build rule for target.
+03.ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/build
+.PHONY : 03.ex02/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -1236,6 +1249,102 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex01.dir/build.make CMakeFiles/03.ex01.dir/03/ex01/main.cpp.s
 .PHONY : 03/ex01/main.cpp.s
 
+03/ex02/ClapTrap.o: 03/ex02/ClapTrap.cpp.o
+.PHONY : 03/ex02/ClapTrap.o
+
+# target to build an object file
+03/ex02/ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.o
+.PHONY : 03/ex02/ClapTrap.cpp.o
+
+03/ex02/ClapTrap.i: 03/ex02/ClapTrap.cpp.i
+.PHONY : 03/ex02/ClapTrap.i
+
+# target to preprocess a source file
+03/ex02/ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.i
+.PHONY : 03/ex02/ClapTrap.cpp.i
+
+03/ex02/ClapTrap.s: 03/ex02/ClapTrap.cpp.s
+.PHONY : 03/ex02/ClapTrap.s
+
+# target to generate assembly for a file
+03/ex02/ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ClapTrap.cpp.s
+.PHONY : 03/ex02/ClapTrap.cpp.s
+
+03/ex02/FragTrap.o: 03/ex02/FragTrap.cpp.o
+.PHONY : 03/ex02/FragTrap.o
+
+# target to build an object file
+03/ex02/FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.o
+.PHONY : 03/ex02/FragTrap.cpp.o
+
+03/ex02/FragTrap.i: 03/ex02/FragTrap.cpp.i
+.PHONY : 03/ex02/FragTrap.i
+
+# target to preprocess a source file
+03/ex02/FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.i
+.PHONY : 03/ex02/FragTrap.cpp.i
+
+03/ex02/FragTrap.s: 03/ex02/FragTrap.cpp.s
+.PHONY : 03/ex02/FragTrap.s
+
+# target to generate assembly for a file
+03/ex02/FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/FragTrap.cpp.s
+.PHONY : 03/ex02/FragTrap.cpp.s
+
+03/ex02/ScavTrap.o: 03/ex02/ScavTrap.cpp.o
+.PHONY : 03/ex02/ScavTrap.o
+
+# target to build an object file
+03/ex02/ScavTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.o
+.PHONY : 03/ex02/ScavTrap.cpp.o
+
+03/ex02/ScavTrap.i: 03/ex02/ScavTrap.cpp.i
+.PHONY : 03/ex02/ScavTrap.i
+
+# target to preprocess a source file
+03/ex02/ScavTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.i
+.PHONY : 03/ex02/ScavTrap.cpp.i
+
+03/ex02/ScavTrap.s: 03/ex02/ScavTrap.cpp.s
+.PHONY : 03/ex02/ScavTrap.s
+
+# target to generate assembly for a file
+03/ex02/ScavTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/ScavTrap.cpp.s
+.PHONY : 03/ex02/ScavTrap.cpp.s
+
+03/ex02/main.o: 03/ex02/main.cpp.o
+.PHONY : 03/ex02/main.o
+
+# target to build an object file
+03/ex02/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/main.cpp.o
+.PHONY : 03/ex02/main.cpp.o
+
+03/ex02/main.i: 03/ex02/main.cpp.i
+.PHONY : 03/ex02/main.i
+
+# target to preprocess a source file
+03/ex02/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/main.cpp.i
+.PHONY : 03/ex02/main.cpp.i
+
+03/ex02/main.s: 03/ex02/main.cpp.s
+.PHONY : 03/ex02/main.s
+
+# target to generate assembly for a file
+03/ex02/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/main.cpp.s
+.PHONY : 03/ex02/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1260,6 +1369,7 @@ help:
 	@echo "... 02.ex03"
 	@echo "... 03.ex00"
 	@echo "... 03.ex01"
+	@echo "... 03.ex02"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -1374,6 +1484,18 @@ help:
 	@echo "... 03/ex01/main.o"
 	@echo "... 03/ex01/main.i"
 	@echo "... 03/ex01/main.s"
+	@echo "... 03/ex02/ClapTrap.o"
+	@echo "... 03/ex02/ClapTrap.i"
+	@echo "... 03/ex02/ClapTrap.s"
+	@echo "... 03/ex02/FragTrap.o"
+	@echo "... 03/ex02/FragTrap.i"
+	@echo "... 03/ex02/FragTrap.s"
+	@echo "... 03/ex02/ScavTrap.o"
+	@echo "... 03/ex02/ScavTrap.i"
+	@echo "... 03/ex02/ScavTrap.s"
+	@echo "... 03/ex02/main.o"
+	@echo "... 03/ex02/main.i"
+	@echo "... 03/ex02/main.s"
 .PHONY : help
 
 

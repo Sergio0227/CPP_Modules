@@ -4,7 +4,7 @@ SRC				=	main.cpp		\
 
 OBJS			= ${SRC:.cpp=.o}
 NAME			= harlFilter
-CFLAGS			= -Wall -Wextra #-Werror
+CFLAGS			= -Wall -Wextra -Werror
 CPPFLAGS		= -std=c++98
 CC				= c++
 RM				= rm -rf

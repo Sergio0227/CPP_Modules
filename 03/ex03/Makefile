@@ -1,8 +1,8 @@
 SRC				=	main.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			= open
-DISPLAY_NAME	= Aaaaand... OPEN!
+NAME			= weird
+DISPLAY_NAME	= Now it’s weird!
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++
