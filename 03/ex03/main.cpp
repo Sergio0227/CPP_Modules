@@ -5,20 +5,18 @@
 
 int	main(void)
 {
-    ClapTrap	clap;
+    /*ClapTrap	clap;
     ScavTrap    scav("maria");
     FragTrap    frag("idiot");
-    scav.guardGate();
-    clap.attack("maria");
-    scav.ScavTrap::attack("Maria");
-    scav.ClapTrap::attack("Maria");
 
     ScavTrap scav2;
     scav2 = scav;
     std::cout << scav.getName() << std::endl;
-    frag.highFivesGuys();
+    frag.highFivesGuys(); */
     DiamondTrap test("Idiot");
+    DiamondTrap test2 = test;
     test.whoAmI();
+    test2.whoAmI();
     return  0;
 }
 

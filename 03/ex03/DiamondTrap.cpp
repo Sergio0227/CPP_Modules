@@ -17,12 +17,19 @@ DiamondTrap::DiamondTrap(std::string name)
 
 DiamondTrap::~DiamondTrap()
 {
+    std::cout << "DiamondTrap Destructor called, " << this->_name << " destroyed" << std::endl;
 }
-DiamondTrap::DiamondTrap(DiamondTrap const &src)
+DiamondTrap::DiamondTrap(DiamondTrap const &src) : ClapTrap(src)
 {
+    std::cout << "DiamondTrap Copy constructor called, " << src._name << " Claptrap was copied" << std::endl;
+    *this = src;
 }
 DiamondTrap& DiamondTrap::operator=(DiamondTrap const &src)
 {
+    std::cout << "DiamondTrap Copy assignement operator called, " << src._name << " FragTrap was copied" << std::endl;
+    ClapTrap::operator=(src);
+    DiamondTrap::_name = src.DiamondTrap::_name;
+    return (*this);
 }
 
 void DiamondTrap::attack(std::string const& target)
@@ -32,6 +39,6 @@ void DiamondTrap::attack(std::string const& target)
 
 void DiamondTrap::whoAmI()
 {
-    std::cout << "I am a DiamondTrap, My name is" << DiamondTrap::_name << std::endl;
+    std::cout << "I am a DiamondTrap, My name is " << _name << std::endl;
     std::cout << "My original ClapTrap name is" << ClapTrap::_name << std::endl;
 }
