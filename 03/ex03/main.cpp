@@ -1,4 +1,5 @@
 #include "ClapTrap.hpp"
+#include "DiamondTrap.hpp"
 #include "FragTrap.hpp"
 #include "ScavTrap.hpp"
 
@@ -16,6 +17,8 @@ int	main(void)
     scav2 = scav;
     std::cout << scav.getName() << std::endl;
     frag.highFivesGuys();
+    DiamondTrap test("Idiot");
+    test.whoAmI();
     return  0;
 }
 

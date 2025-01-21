@@ -109,4 +109,15 @@ add_executable(03.ex02              #
         03/ex02/FragTrap.cpp        #
         03/ex02/FragTrap.hpp)       #
                                     #
+add_executable(03.ex03              #
+        03/ex03/main.cpp            #
+        03/ex03/ClapTrap.cpp        #
+        03/ex03/ClapTrap.hpp        #
+        03/ex03/ScavTrap.cpp        #
+        03/ex03/ScavTrap.hpp        #
+        03/ex03/FragTrap.cpp        #
+        03/ex03/FragTrap.hpp       #
+        03/ex03/DiamondTrap.cpp        #
+        03/ex03/DiamondTrap.hpp)       #
+                                    #
 #####################################

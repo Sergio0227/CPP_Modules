@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/01.ex06.dir/01/ex06/main.cpp.o CMakeFiles/01.ex06.dir/01/ex06/Harl.cpp.o -o 01.ex06

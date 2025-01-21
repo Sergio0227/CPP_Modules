@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/00.ex01.dir/00/ex01/Contact.cpp.o CMakeFiles/00.ex01.dir/00/ex01/PhoneBook.cpp.o CMakeFiles/00.ex01.dir/00/ex01/main.cpp.o -o 00.ex01
