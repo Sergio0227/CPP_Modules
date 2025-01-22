@@ -15,8 +15,11 @@ int	main(void)
     frag.highFivesGuys(); */
     DiamondTrap test("Idiot");
     DiamondTrap test2 = test;
-    test.whoAmI();
-    test2.whoAmI();
+    std::cout << test2.getName() << std::endl;
+    std::cout << test2.getAttackDamage() << std::endl;
+    std::cout << test2.getEnergyPoints() << std::endl;
+    std::cout << test2.getHitPoints() << std::endl;
+
     return  0;
 }
 

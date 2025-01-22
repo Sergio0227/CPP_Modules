@@ -6,7 +6,7 @@
 #include "ClapTrap.hpp"
 
 
-class ScavTrap : virtual  public ClapTrap {
+class ScavTrap : virtual public ClapTrap {
 private:
     bool _gateKeeper;
 
