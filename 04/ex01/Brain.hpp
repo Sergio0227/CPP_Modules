@@ -1,0 +1,20 @@
+#pragma once
+
+#ifndef BRAIN_HPP
+#define BRAIN_HPP
+#include <string>
+#include <iostream>
+
+class Brain {
+private:
+    std::string _ideas[100];
+
+public:
+    Brain();
+    ~Brain();
+    Brain(Brain const &src);
+    Brain& operator=(Brain const &src);
+};
+
+
+#endif //BRAIN_HPP

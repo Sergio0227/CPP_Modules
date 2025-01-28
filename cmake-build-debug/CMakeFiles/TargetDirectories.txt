@@ -16,5 +16,9 @@
 /home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/03.ex01.dir
 /home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/03.ex02.dir
 /home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/03.ex03.dir
+/home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/04.ex00.dir
+/home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/04.ex01.dir
+/home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/04.ex02.dir
+/home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/04.ex03.dir
 /home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/sergio/42/CPP_Modules/cmake-build-debug/CMakeFiles/rebuild_cache.dir

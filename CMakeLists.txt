@@ -7,7 +7,9 @@ set(CMAKE_BUILD_TYPE Debug)
 
 #############CPP MODULE00############
 add_executable(00.ex00              #
-        00/ex00/megaphone.cpp)      #
+        00/ex00/megaphone.cpp
+        04/ex00/Animal.cpp
+        04/ex00/Animal.hpp)      #
                                     #
 add_executable(00.ex01              #
         00/ex01/Contact.hpp         #
@@ -116,8 +118,67 @@ add_executable(03.ex03              #
         03/ex03/ScavTrap.cpp        #
         03/ex03/ScavTrap.hpp        #
         03/ex03/FragTrap.cpp        #
-        03/ex03/FragTrap.hpp       #
-        03/ex03/DiamondTrap.cpp        #
-        03/ex03/DiamondTrap.hpp)       #
-                                    #
+        03/ex03/FragTrap.hpp        #
+        03/ex03/DiamondTrap.cpp     #
+        03/ex03/DiamondTrap.hpp)    #
+#####################################
+
+#####################################
+add_executable(04.ex00              #
+        04/ex00/main.cpp            #
+        04/ex00/Animal.cpp          #
+        04/ex00/Animal.hpp          #
+        04/ex00/Dog.cpp             #
+        04/ex00/Dog.hpp             #
+        04/ex00/Cat.cpp             #
+        04/ex00/Cat.hpp             #
+        04/ex00/WrongAnimal.cpp     #
+        04/ex00/WrongAnimal.hpp     #
+        04/ex00/WrongCat.cpp        #
+        04/ex00/WrongCat.hpp)       #
+#####################################
+
+#####################################
+add_executable(04.ex01              #
+        04/ex01/main.cpp            #
+        04/ex01/Animal.cpp          #
+        04/ex01/Animal.hpp          #
+        04/ex01/Dog.cpp             #
+        04/ex01/Dog.hpp             #
+        04/ex01/Cat.cpp             #
+        04/ex01/Cat.hpp             #
+        04/ex01/Brain.cpp           #
+        04/ex01/Brain.hpp)          #
+#####################################
+
+#####################################
+add_executable(04.ex02              #
+        04/ex02/main.cpp            #
+        04/ex02/Animal.cpp          #
+        04/ex02/Animal.hpp          #
+        04/ex02/Dog.cpp             #
+        04/ex02/Dog.hpp             #
+        04/ex02/Cat.cpp             #
+        04/ex02/Cat.hpp             #
+        04/ex02/Brain.cpp           #
+        04/ex02/Brain.hpp)          #
+#####################################
+
+#####################################
+add_executable(04.ex03              #
+        04/ex03/main.cpp            #
+        04/ex03/AMateria.cpp        #
+        04/ex03/AMateria.hpp        #
+        04/ex03/Ice.cpp             #
+        04/ex03/Ice.hpp             #
+        04/ex03/Cure.cpp            #
+        04/ex03/Cure.hpp            #
+        04/ex03/ICharacter.cpp      #
+        04/ex03/ICharacter.hpp      #
+        04/ex03/MateriaSource.cpp   #
+        04/ex03/MateriaSource.hpp   #
+        04/ex03/IMateriaSource.cpp  #
+        04/ex03/IMateriaSource.hpp  #
+        04/ex03/Character.cpp       #
+        04/ex03/Character.hpp)      #
 #####################################

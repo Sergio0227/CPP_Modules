@@ -1,21 +1,23 @@
 #include "DiamondTrap.hpp"
 
-DiamondTrap::DiamondTrap()
+DiamondTrap::DiamondTrap(void)
 {
-    ClapTrap::_name = "undefined_clap_name";
-    DiamondTrap::_name = "undefined";
-    this->_hitPoints = this->FragTrap::_hitPoints;
-    this->_energyPoints = this->ScavTrap::_energyPoints;
-    this->_attackDamage = this->FragTrap::_attackDamage;
+    this->_name = "unknown";
+    ClapTrap::_name = "unknows_clap_name";
+    this->_hitPoints = FragTrap::_maxHitPoints;
+    this->_energyPoints = ScavTrap::_maxEnergyPoints;
+    this->_attackDamage = FragTrap::_maxAttackDamage;
+    std::cout << "DiamondTrap " << this->_name << " created with default constructor." << std::endl;
 }
 
-DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name"), ScavTrap(name + "_clap_name"), FragTrap(name + "_clap_name")
+DiamondTrap::DiamondTrap(std::string const name)
 {
-    std::cout << "DiamondTrap constructor called for " << name << std::endl;
-    DiamondTrap::_name = name;
-    this->_hitPoints = this->FragTrap::_hitPoints;
-    this->_energyPoints = this->ScavTrap::_energyPoints;
-    this->_attackDamage = this->FragTrap::_attackDamage;
+    this->_name = name;
+    ClapTrap::_name = name + "_clap_name";
+    this->_hitPoints = FragTrap::_maxHitPoints;
+    this->_energyPoints = ScavTrap::_maxEnergyPoints;
+    this->_attackDamage = FragTrap::_maxAttackDamage;
+    std::cout << "DiamondTrap " << this->_name << " created." << std::endl;
 }
 
 DiamondTrap::~DiamondTrap()
@@ -27,6 +29,7 @@ DiamondTrap::DiamondTrap(DiamondTrap const &src) : ClapTrap(src), ScavTrap(src),
     std::cout << "DiamondTrap Copy constructor called, " << src._name << " Claptrap was copied" << std::endl;
     *this = src;
 }
+
 DiamondTrap& DiamondTrap::operator=(DiamondTrap const &src)
 {
     std::cout << "DiamondTrap Copy assignement operator called, " << src._name << " FragTrap was copied" << std::endl;
@@ -42,6 +45,6 @@ void DiamondTrap::attack(std::string const& target)
 
 void DiamondTrap::whoAmI()
 {
-    std::cout << "I am a DiamondTrap, My name is " << _name << std::endl;
-    std::cout << "My original ClapTrap name is" << ClapTrap::_name << std::endl;
+    std::cout << "I am a DiamondTrap, My name is " << _name;
+    std::cout << ". My original ClapTrap name is " << ClapTrap::_name << std::endl;
 }

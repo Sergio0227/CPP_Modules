@@ -1,0 +1,249 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex00-Debug-5cd7aaa8b0947f13b876.json",
+					"name" : "00.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex01-Debug-75a321bd33254451bd37.json",
+					"name" : "00.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "00.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-00.ex02-Debug-e2480014f1d4081d4ba1.json",
+					"name" : "00.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex00-Debug-29f21d0e3ba57999b810.json",
+					"name" : "01.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex01-Debug-3e33bc182273cace2eb4.json",
+					"name" : "01.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex02-Debug-4493c2792bde10cfe98a.json",
+					"name" : "01.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex03-Debug-913f5f3dd2fbb169e7e7.json",
+					"name" : "01.ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex04-Debug-0c78e470e7ad75c41ec7.json",
+					"name" : "01.ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex05-Debug-86301deb31449ed3ce7e.json",
+					"name" : "01.ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01.ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.ex06-Debug-9b07efc21b9aa400bd45.json",
+					"name" : "01.ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex00-Debug-4d7333265b6093b6f11c.json",
+					"name" : "02.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex01-Debug-586af576da75addf587d.json",
+					"name" : "02.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex02-Debug-05c21d622c2e654717cc.json",
+					"name" : "02.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.ex03-Debug-d08cab8b7ad501fb57dc.json",
+					"name" : "02.ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex00-Debug-93637532ceb7484dc2db.json",
+					"name" : "03.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex01-Debug-16e35cb81e935ae4038c.json",
+					"name" : "03.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex02-Debug-3db119792c76f1f3961e.json",
+					"name" : "03.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.ex03-Debug-b9c7f206b5b82e6bce91.json",
+					"name" : "03.ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.ex00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.ex00-Debug-a2e7c522da295a5c733c.json",
+					"name" : "04.ex00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.ex01-Debug-3930b60d927b50fbfeff.json",
+					"name" : "04.ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.ex02-Debug-a5370c9d04a6a37f8dfd.json",
+					"name" : "04.ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.ex03-Debug-f2f123ba7c85707b2f74.json",
+					"name" : "04.ex03",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sergio/42/CPP_Modules/cmake-build-debug",
+		"source" : "/home/sergio/42/CPP_Modules"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

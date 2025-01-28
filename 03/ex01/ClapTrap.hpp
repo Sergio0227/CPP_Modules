@@ -4,8 +4,12 @@
 #include <string>
 
 class ClapTrap {
-
 private:
+    static const int _maxHitPoints = 100;
+    static const int _maxEnergyPoints = 50;
+    static const int _maxAttackDamage = 20;
+
+protected:
     std::string _name;
     int _hitPoints;
     int _energyPoints;
@@ -21,15 +25,6 @@ public:
     void attack(const std::string& target);
     void takeDamage(unsigned int amount);
     void beRepaired(unsigned int amount);
-
-    std::string getName(void) const;
-    void setName(std::string name);
-    int getHitPoints(void) const;
-    void setHitPoints(int hitPoints);
-    int getEnergyPoints(void) const;
-    void setEnergyPoints(int energyPoints);
-    int getAttackDamage(void) const;
-    void setAttackDamage(int attackDamage);
 };
 
 #endif //CLAPTRAP_HPP

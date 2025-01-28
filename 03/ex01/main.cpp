@@ -4,12 +4,13 @@
 int	main(void)
 {
     ClapTrap	clap;
+    ClapTrap	clap2("Ze");
     ScavTrap    scav("maria");
 
     scav.guardGate();
     clap.attack("maria");
-    scav.ScavTrap::attack("Maria");
-    scav.ClapTrap::attack("Maria");
+    scav.attack("Maria");
+    scav.attack("Maria");
 
     return  0;
 }

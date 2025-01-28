@@ -8,14 +8,14 @@ int	main(void)
     ScavTrap    scav("maria");
     FragTrap    frag("idiot");
     scav.guardGate();
+    scav.guardGate();
     clap.attack("maria");
-    scav.ScavTrap::attack("Maria");
-    scav.ClapTrap::attack("Maria");
+    scav.attack("Maria");
 
     ScavTrap scav2;
     scav2 = scav;
-    std::cout << scav.getName() << std::endl;
     frag.highFivesGuys();
+    frag.attack("Manel");
     return  0;
 }
 

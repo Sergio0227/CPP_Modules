@@ -8,6 +8,9 @@
 
 class ScavTrap : public ClapTrap {
 private:
+    static const int _maxHitPoints = 100;
+    static const int _maxEnergyPoints = 50;
+    static const int _maxAttackDamage = 20;
     bool _gateKeeper;
 
 public:

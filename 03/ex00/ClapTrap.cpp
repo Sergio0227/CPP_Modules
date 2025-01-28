@@ -1,15 +1,21 @@
 #include <iostream>
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap() : _name("unknown"), _energyPoints(10),
-                                       _hitPoints(10), _attackDamage(0)
+ClapTrap::ClapTrap()
 {
+    this->_name = "Unknown";
+    this->_hitPoints = 10;
+    this->_energyPoints = 10;
+    this->_attackDamage = 0;
     std::cout << "ClapTrap Constructor called, " << this->_name << " Claptrap created" << std::endl;
 }
 
-ClapTrap::ClapTrap(const std::string &name) : _name(name), _energyPoints(10),
-                                        _hitPoints(10), _attackDamage(0)
+ClapTrap::ClapTrap(const std::string &name)
 {
+    this->_name = name;
+    this->_hitPoints = 10;
+    this->_energyPoints = 10;
+    this->_attackDamage = 0;
     std::cout << "ClapTrap Constructor called, " << this->_name << " Claptrap created" << std::endl;
 }
 
@@ -45,6 +51,11 @@ void ClapTrap::attack(const std::string& target)
 
 void ClapTrap::takeDamage(unsigned int amount)
 {
+    if (!amount)
+    {
+        std::cout << "ClapTrap " << this->_name << " didn't tahe any damage" << std::endl;
+        return;
+    }
     if (this->_hitPoints)
     {
         std::cout << "ClapTrap " << this->_name << " took " << amount << " of damage" << std::endl;
@@ -63,44 +74,4 @@ void ClapTrap::beRepaired(unsigned int amount)
     }
     else
         std::cout << "ClapTrap " << this->_name << " couldnt heal, no energy points left or hit points" << std::endl;
-}
-
-std::string ClapTrap::getName()
-{
-    return this->_name;
-}
-
-void ClapTrap::setName(std::string name)
-{
-    this->_name = name;
-}
-
-int ClapTrap::getHitPoints(void)
-{
-    return this->_hitPoints;
-}
-
-void ClapTrap::setHitPoints(int hitPoints)
-{
-    this->_hitPoints = hitPoints;
-}
-
-int ClapTrap::getEnergyPoints(void)
-{
-    return this->_energyPoints;
-}
-
-void ClapTrap::setEnergyPoints(int energyPoints)
-{
-    this->_energyPoints = energyPoints;
-}
-
-int ClapTrap::getAttackDamage(void)
-{
-    return this->_attackDamage;
-}
-
-void ClapTrap::setAttackDamage(int attackDamage)
-{
-    this->_attackDamage = attackDamage;
 }

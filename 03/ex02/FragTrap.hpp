@@ -4,8 +4,12 @@
 #include "ClapTrap.hpp"
 #include <iostream>
 
+
 class FragTrap : public ClapTrap {
 private:
+    static const int _maxHitPoints = 100;
+    static const int _maxEnergyPoints = 100;
+    static const int _maxAttackDamage = 30;
 
 public:
     FragTrap();

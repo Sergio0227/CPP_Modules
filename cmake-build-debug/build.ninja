@@ -55,6 +55,12 @@ build CMakeFiles/00.ex00.dir/00/ex00/megaphone.cpp.o: CXX_COMPILER__00.2eex00_un
   OBJECT_DIR = CMakeFiles/00.ex00.dir
   OBJECT_FILE_DIR = CMakeFiles/00.ex00.dir/00/ex00
 
+build CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.o: CXX_COMPILER__00.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/Animal.cpp || cmake_object_order_depends_target_00.ex00
+  DEP_FILE = CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/00.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/00.ex00.dir/04/ex00
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 00.ex00
@@ -63,7 +69,7 @@ build CMakeFiles/00.ex00.dir/00/ex00/megaphone.cpp.o: CXX_COMPILER__00.2eex00_un
 #############################################
 # Link the executable 00.ex00
 
-build 00.ex00: CXX_EXECUTABLE_LINKER__00.2eex00_Debug CMakeFiles/00.ex00.dir/00/ex00/megaphone.cpp.o
+build 00.ex00: CXX_EXECUTABLE_LINKER__00.2eex00_Debug CMakeFiles/00.ex00.dir/00/ex00/megaphone.cpp.o CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/00.ex00.dir
   POST_BUILD = :
@@ -772,6 +778,250 @@ build 03.ex03: CXX_EXECUTABLE_LINKER__03.2eex03_Debug CMakeFiles/03.ex03.dir/03/
   TARGET_FILE = 03.ex03
   TARGET_PDB = 03.ex03.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.ex00
+
+
+#############################################
+# Order-only phony target for 04.ex00
+
+build cmake_object_order_depends_target_04.ex00: phony || .
+
+build CMakeFiles/04.ex00.dir/04/ex00/main.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/main.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+build CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/Animal.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+build CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/Dog.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+build CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/Cat.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+build CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/WrongAnimal.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+build CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.o: CXX_COMPILER__04.2eex00_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex00/WrongCat.cpp || cmake_object_order_depends_target_04.ex00
+  DEP_FILE = CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex00.dir/04/ex00
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.ex00
+
+
+#############################################
+# Link the executable 04.ex00
+
+build 04.ex00: CXX_EXECUTABLE_LINKER__04.2eex00_Debug CMakeFiles/04.ex00.dir/04/ex00/main.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.o CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.o CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04.ex00.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.ex00
+  TARGET_PDB = 04.ex00.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.ex01
+
+
+#############################################
+# Order-only phony target for 04.ex01
+
+build cmake_object_order_depends_target_04.ex01: phony || .
+
+build CMakeFiles/04.ex01.dir/04/ex01/main.cpp.o: CXX_COMPILER__04.2eex01_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex01/main.cpp || cmake_object_order_depends_target_04.ex01
+  DEP_FILE = CMakeFiles/04.ex01.dir/04/ex01/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex01.dir/04/ex01
+
+build CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.o: CXX_COMPILER__04.2eex01_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex01/Animal.cpp || cmake_object_order_depends_target_04.ex01
+  DEP_FILE = CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex01.dir/04/ex01
+
+build CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.o: CXX_COMPILER__04.2eex01_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex01/Dog.cpp || cmake_object_order_depends_target_04.ex01
+  DEP_FILE = CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex01.dir/04/ex01
+
+build CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.o: CXX_COMPILER__04.2eex01_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex01/Cat.cpp || cmake_object_order_depends_target_04.ex01
+  DEP_FILE = CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex01.dir/04/ex01
+
+build CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.o: CXX_COMPILER__04.2eex01_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex01/Brain.cpp || cmake_object_order_depends_target_04.ex01
+  DEP_FILE = CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex01.dir/04/ex01
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.ex01
+
+
+#############################################
+# Link the executable 04.ex01
+
+build 04.ex01: CXX_EXECUTABLE_LINKER__04.2eex01_Debug CMakeFiles/04.ex01.dir/04/ex01/main.cpp.o CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.o CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.o CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.o CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04.ex01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.ex01
+  TARGET_PDB = 04.ex01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.ex02
+
+
+#############################################
+# Order-only phony target for 04.ex02
+
+build cmake_object_order_depends_target_04.ex02: phony || .
+
+build CMakeFiles/04.ex02.dir/04/ex02/main.cpp.o: CXX_COMPILER__04.2eex02_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex02/main.cpp || cmake_object_order_depends_target_04.ex02
+  DEP_FILE = CMakeFiles/04.ex02.dir/04/ex02/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex02.dir/04/ex02
+
+build CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.o: CXX_COMPILER__04.2eex02_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex02/Animal.cpp || cmake_object_order_depends_target_04.ex02
+  DEP_FILE = CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex02.dir/04/ex02
+
+build CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.o: CXX_COMPILER__04.2eex02_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex02/Dog.cpp || cmake_object_order_depends_target_04.ex02
+  DEP_FILE = CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex02.dir/04/ex02
+
+build CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.o: CXX_COMPILER__04.2eex02_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex02/Cat.cpp || cmake_object_order_depends_target_04.ex02
+  DEP_FILE = CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex02.dir/04/ex02
+
+build CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.o: CXX_COMPILER__04.2eex02_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex02/Brain.cpp || cmake_object_order_depends_target_04.ex02
+  DEP_FILE = CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex02.dir/04/ex02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.ex02
+
+
+#############################################
+# Link the executable 04.ex02
+
+build 04.ex02: CXX_EXECUTABLE_LINKER__04.2eex02_Debug CMakeFiles/04.ex02.dir/04/ex02/main.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04.ex02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.ex02
+  TARGET_PDB = 04.ex02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.ex03
+
+
+#############################################
+# Order-only phony target for 04.ex03
+
+build cmake_object_order_depends_target_04.ex03: phony || .
+
+build CMakeFiles/04.ex03.dir/04/ex03/main.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/main.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/main.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/AMateria.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/Ice.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/Cure.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/ICharacter.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/MateriaSource.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/IMateriaSource.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+build CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.o: CXX_COMPILER__04.2eex03_unscanned_Debug /home/sergio/42/CPP_Modules/04/ex03/Character.cpp || cmake_object_order_depends_target_04.ex03
+  DEP_FILE = CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.o.d
+  FLAGS = -g -std=gnu++98 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/04.ex03.dir/04/ex03
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.ex03
+
+
+#############################################
+# Link the executable 04.ex03
+
+build 04.ex03: CXX_EXECUTABLE_LINKER__04.2eex03_Debug CMakeFiles/04.ex03.dir/04/ex03/main.cpp.o CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.o CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.o CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.o CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.o CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.o CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.o CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04.ex03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04.ex03
+  TARGET_PDB = 04.ex03.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -806,7 +1056,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/sergio/42/CPP_Modules/cmake-build-debug
 
-build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03 01.ex04 01.ex05 01.ex06 02.ex00 02.ex01 02.ex02 02.ex03 03.ex00 03.ex01 03.ex02 03.ex03
+build all: phony 00.ex00 00.ex01 00.ex02 01.ex00 01.ex01 01.ex02 01.ex03 01.ex04 01.ex05 01.ex06 02.ex00 02.ex01 02.ex02 02.ex03 03.ex00 03.ex01 03.ex02 03.ex03 04.ex00 04.ex01 04.ex02 04.ex03
 
 # =============================================================================
 # Built-in targets
