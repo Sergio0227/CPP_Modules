@@ -4,18 +4,21 @@
 
 int	main(void)
 {
-    ClapTrap	clap;
-    ScavTrap    scav("maria");
-    FragTrap    frag("idiot");
-    scav.guardGate();
-    scav.guardGate();
-    clap.attack("maria");
-    scav.attack("Maria");
+    std::cout << "\n\n### TESTING FRAGTRAP ###\n" << std::endl;
+    {
+        std::cout << "\033[34mConstructing\033[0m" << std::endl;
+        FragTrap a;
+        FragTrap b("Maria");
 
-    ScavTrap scav2;
-    scav2 = scav;
-    frag.highFivesGuys();
-    frag.attack("Manel");
+        std::cout << "\033[34mTesting\033[0m" << std::endl;
+        a.highFivesGuys();
+        a.attack("random dude");
+        a.takeDamage(101);
+        a.takeDamage(1);
+        a.attack("some other dude");
+        b.highFivesGuys();
+        std::cout << "\033[34mDeconstructing\033[0m" << std::endl;
+    }
     return  0;
 }
 

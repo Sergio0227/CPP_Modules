@@ -1,4 +1,5 @@
-SRC				=	main.cpp
+SRC				=	main.cpp \
+					ClapTrap.cpp
 
 OBJS			= ${SRC:.cpp=.o}
 NAME			= open

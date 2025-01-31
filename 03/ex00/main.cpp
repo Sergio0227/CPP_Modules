@@ -2,25 +2,23 @@
 
 int	main(void)
 {
-    ClapTrap	maria = ClapTrap("maria");
-    ClapTrap	fernando("Fernando");
-    ClapTrap	zes[3];
+    std::cout << "### TESTING CLAPTRAP ###\n" << std::endl;
+    {
+        std::cout << "\033[34mConstructing\033[0m" << std::endl;
+        ClapTrap a;
+        ClapTrap b("Cody");
 
-    fernando = maria;
-    fernando.attack("a worm");
-    fernando.attack("a worm");
-    fernando.attack("a worm");
-    fernando.attack("a worm");
-    maria.attack("a worm");
-    maria.attack("a worm");
-    maria.attack("a worm");
-    maria.attack("a worm");
-
-    maria.takeDamage(9);
-    maria.attack("a worm");
-    maria.takeDamage(1);
-    maria.takeDamage(1);   // Dead
-    maria.attack("a worm"); // No more life
-    maria.beRepaired(10);  // If have one more life, will not have enought energy
+        std::cout << "\033[34mTesting\033[0m" << std::endl;
+        a.attack("some other robot");
+        a.takeDamage(10);
+        a.takeDamage(10);
+        a.beRepaired(5);
+        a.attack("some other other robot");
+        b.beRepaired(3);
+        for (int i = 0; i < 12; i++)
+            b.attack("Cody-clone");
+        b.beRepaired(3);
+        std::cout << "\033[34mDeconstructing\033[0m" << std::endl;
+    }
 }
 
