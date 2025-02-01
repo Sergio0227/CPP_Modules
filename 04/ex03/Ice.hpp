@@ -2,22 +2,18 @@
 
 #ifndef ICE_HPP
 #define ICE_HPP
-#include <string>
-#include <iostream>
+#include "ICharacter.hpp"
 
-#include "AMateria.hpp"
-
-
-class Ice :AMateria{
-private:
-    std::string type;
-
+class Ice: public AMateria
+{
 public:
-    Ice();
-    ~Ice();
-    Ice(Ice const &src);
-    Ice& operator=(Ice const &src);
-};
+    Ice(void);
+    Ice(Ice const &copy);
+    ~Ice(void);
+    Ice const	&operator=(Ice const &copy);
 
+    virtual AMateria	*clone(void) const;
+    void				use(ICharacter &target);
+};
 
 #endif //ICE_HPP

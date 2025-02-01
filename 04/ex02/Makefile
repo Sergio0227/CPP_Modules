@@ -1,4 +1,8 @@
-SRC				=	main.cpp
+SRC				=	main.cpp \
+					Animal.cpp \
+					Brain.cpp \
+					Cat.cpp \
+					Dog.cpp
 
 OBJS			= ${SRC:.cpp=.o}
 NAME			= abstract

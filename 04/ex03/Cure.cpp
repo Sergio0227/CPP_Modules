@@ -1,18 +1,32 @@
 #include "Cure.hpp"
 
-Cure::Cure()
+Cure::Cure(void): AMateria("cure")
 {
-    this->type = "cure";
+    std::cout << "Cure created with default constructor" << std::endl;
 }
-Cure::~Cure()
+
+Cure::~Cure(void)
 {
+    std::cout << "Cure destroyed" << std::endl;
 }
-Cure::Cure(Cure const &src)
+
+Cure::Cure(Cure const &copy): AMateria(copy)
 {
-    this->type = src.type;
+    std::cout << "Cure copied" << std::endl;
 }
-Cure& Cure::operator=(Cure const &src)
+
+Cure const	&Cure::operator=(const Cure &copy)
 {
-    this->type = src.type;
-    return *this;
+    this->_type = copy._type;
+    return (*this);
+}
+
+AMateria	*Cure::clone(void) const
+{
+    return (new Cure(*this));
+}
+
+void	Cure::use(ICharacter &target)
+{
+    std::cout << "* heals " << target.getName() << "'s wounds *" << std::endl;
 }

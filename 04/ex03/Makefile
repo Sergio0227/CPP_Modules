@@ -1,8 +1,15 @@
-SRC				=	main.cpp
+SRC				=	main.cpp \
+					AMateria.cpp \
+					Character.cpp \
+					Cure.cpp \
+					Ice.cpp \
+					ICharacter.cpp \
+					IMateriaSource.cpp \
+					MateriaSource.cpp
 
 OBJS			= ${SRC:.cpp=.o}
-NAME			= weird
-DISPLAY_NAME	= Now it’s weird!
+NAME			= interface
+DISPLAY_NAME	= Interface & recap
 CFLAGS			= -Werror -Wall -Wextra
 CPPFLAGS		= -std=c++98
 CC				= c++
