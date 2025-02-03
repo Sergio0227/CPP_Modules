@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/04.ex00.dir/04/ex00/main.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.o CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.o CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.o CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.o -o 04.ex00

@@ -13,19 +13,19 @@ int main()
 		IMateriaSource* src = new MateriaSource();
 		src->learnMateria(new Ice());
 		src->learnMateria(new Cure());
-		ICharacter* me = new Character("me");
+		ICharacter* donald = new Character("Trump");
 		AMateria* tmp;
 		tmp = src->createMateria("ice");
-		me->equip(tmp);
+		donald->equip(tmp);
 		tmp = src->createMateria("cure");
-		me->equip(tmp);
-		ICharacter* bob = new Character("bob");
-		me->use(0, *bob);
-		me->use(1, *bob);
+		donald->equip(tmp);
+		ICharacter* elon = new Character("Musk");
+		donald->use(0, *elon);
+		donald->use(1, *elon);
 		std::cout << std::endl;
 
-		delete bob;
-		delete me;
+		delete donald;
+		delete elon;
 		delete src;
 	}
 	{
@@ -39,16 +39,16 @@ int main()
 		src->learnMateria(mat);
 		std::cout << std::endl;
 
-		std::cout << "2. Create 2 new characters and test deep copy:" << std::endl;
-		Character *dur0 = new Character("Alice");
+		std::cout << "2. Create character from another (copy)" << std::endl;
+		Character *dur0 = new Character("Sonic");
 		ICharacter *dur1 = new Character(*dur0);
 		delete dur0;
 		delete dur1;
 		std::cout << std::endl;
 
-		std::cout << "3. Create materias and equip them (also check unknown materias):" << std::endl;
+		std::cout << "3. Create materias and equip them" << std::endl;
 		AMateria* tmp;
-		ICharacter *dur2 = new Character("Alice");
+		ICharacter *dur2 = new Character("Shadow");
 		tmp = src->createMateria("ice");
 		dur2->equip(tmp);
 		tmp = src->createMateria("cure");
@@ -65,13 +65,13 @@ int main()
 		dur2->equip(cure);
 		dur2->equip(ice);
 		dur2->unequip(2);
-		delete cure; // Cure must be deleted manually when unequipped
+		delete cure;
 		dur2->unequip(2);
 		dur2->unequip(6);
 		std::cout << std::endl;
 
 		std::cout << "5. Use materias on new chacarter:" << std::endl;
-		ICharacter* bob = new Character("Bob");
+		ICharacter* bob = new Character("a little angry child");
 		dur2->use(0, *bob);
 		dur2->use(1, *bob);
 		dur2->use(2, *bob);

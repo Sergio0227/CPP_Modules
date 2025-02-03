@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/00.ex00.dir/00/ex00/megaphone.cpp.o CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.o -o 00.ex00

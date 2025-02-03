@@ -2,12 +2,12 @@
 
 Character::Character(void): _name("default"), _inventory()
 {
-	std::cout << "Character created with default constructor" << std::endl;
+	std::cout << "Character default constructor called" << std::endl;
 }
 
 Character::Character(std::string const &name): _name(name), _inventory()
 {
-	std::cout << "Character created" << std::endl;
+	std::cout << "Character constructor called" << std::endl;
 }
 
 Character::~Character(void)
@@ -17,7 +17,7 @@ Character::~Character(void)
 		if (this->_inventory[i])
 			delete this->_inventory[i];
 	}
-	std::cout << "Character destroyed" << std::endl;
+	std::cout << "Character destructor called" << std::endl;
 }
 
 Character::Character(Character const &copy): ICharacter(copy), _inventory()
@@ -28,7 +28,7 @@ Character::Character(Character const &copy): ICharacter(copy), _inventory()
 		if (copy._inventory[i])
 			this->_inventory[i] = copy._inventory[i];
 	}
-	std::cout << "Character copied" << std::endl;
+	std::cout << "Character copy constructor called" << std::endl;
 }
 
 Character const	&Character::operator=(const Character &copy)
@@ -67,7 +67,7 @@ void	Character::unequip(int idx)
 		this->_inventory[idx] = NULL;
 	}
 	else if (idx < 0 || idx >= 4)
-		std::cout << "Cannot unequip materia, invalid index " << idx << std::endl;
+		std::cout << "Cannot unequip materia index out of range" << idx << std::endl;
 	else
 		std::cout << "Cannot unequip materia, index " << idx << " is empty!" << std::endl;
 }
@@ -77,7 +77,7 @@ void	Character::use(int idx, ICharacter &target)
 	if (idx >= 0 && idx < 4 && this->_inventory[idx])
 		this->_inventory[idx]->use(target);
 	else if (idx < 0 || idx >= 4)
-		std::cout << "Cannot use materia, invalid index " << idx << std::endl;
+		std::cout << "Cannot use materia, index out of range " << idx << std::endl;
 	else
 		std::cout << "Cannot use materia, index " << idx << " is empty!" << std::endl;
 }

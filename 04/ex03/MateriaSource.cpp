@@ -2,7 +2,7 @@
 
 MateriaSource::MateriaSource(void): _learnInventory()
 {
-    std::cout << "MateriaSource created with default constructor" << std::endl;
+    std::cout << "MateriaSource constructor called" << std::endl;
 }
 
 MateriaSource::~MateriaSource(void)
@@ -12,7 +12,7 @@ MateriaSource::~MateriaSource(void)
         if (this->_learnInventory[i])
             delete this->_learnInventory[i];
     }
-    std::cout << "MateriaSource destroyed" << std::endl;
+    std::cout << "MateriaSource destructor called" << std::endl;
 }
 
 MateriaSource::MateriaSource(MateriaSource const &copy): IMateriaSource(copy), _learnInventory()
@@ -22,7 +22,7 @@ MateriaSource::MateriaSource(MateriaSource const &copy): IMateriaSource(copy), _
         if (copy._learnInventory[i])
             this->_learnInventory[i] = copy._learnInventory[i];
     }
-    std::cout << "MateriaSource copied" << std::endl;
+    std::cout << "MateriaSource copy constructor called" << std::endl;
 }
 
 MateriaSource const	&MateriaSource::operator=(const MateriaSource &copy)

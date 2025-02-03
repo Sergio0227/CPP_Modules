@@ -2,13 +2,13 @@
 
 IMateriaSource::IMateriaSource(void)
 {
-    std::cout << "IMateriaSource object created with default constructor" << std::endl;
+    std::cout << "IMateriaSource constructor called" << std::endl;
 }
 
 IMateriaSource::IMateriaSource(IMateriaSource const &copy)
 {
     *this = copy;
-    std::cout << "IMateriaSource object copied" << std::endl;
+    std::cout << "IMateriaSource copy constructor called" << std::endl;
 }
 
 IMateriaSource const	&IMateriaSource::operator=(IMateriaSource const &copy)

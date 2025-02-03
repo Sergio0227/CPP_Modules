@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/04.ex02.dir/04/ex02/main.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.o CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.o -o 04.ex02

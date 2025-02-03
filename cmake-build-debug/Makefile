@@ -337,6 +337,71 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/build
 .PHONY : 03.ex02/fast
 
+#=============================================================================
+# Target rules for targets named 03.ex03
+
+# Build rule for target.
+03.ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03.ex03
+.PHONY : 03.ex03
+
+# fast build rule for target.
+03.ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/build
+.PHONY : 03.ex03/fast
+
+#=============================================================================
+# Target rules for targets named 04.ex00
+
+# Build rule for target.
+04.ex00: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04.ex00
+.PHONY : 04.ex00
+
+# fast build rule for target.
+04.ex00/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/build
+.PHONY : 04.ex00/fast
+
+#=============================================================================
+# Target rules for targets named 04.ex01
+
+# Build rule for target.
+04.ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04.ex01
+.PHONY : 04.ex01
+
+# fast build rule for target.
+04.ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/build
+.PHONY : 04.ex01/fast
+
+#=============================================================================
+# Target rules for targets named 04.ex02
+
+# Build rule for target.
+04.ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04.ex02
+.PHONY : 04.ex02
+
+# fast build rule for target.
+04.ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/build
+.PHONY : 04.ex02/fast
+
+#=============================================================================
+# Target rules for targets named 04.ex03
+
+# Build rule for target.
+04.ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04.ex03
+.PHONY : 04.ex03
+
+# fast build rule for target.
+04.ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/build
+.PHONY : 04.ex03/fast
+
 00/ex00/megaphone.o: 00/ex00/megaphone.cpp.o
 .PHONY : 00/ex00/megaphone.o
 
@@ -1345,6 +1410,705 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex02.dir/build.make CMakeFiles/03.ex02.dir/03/ex02/main.cpp.s
 .PHONY : 03/ex02/main.cpp.s
 
+03/ex03/ClapTrap.o: 03/ex03/ClapTrap.cpp.o
+.PHONY : 03/ex03/ClapTrap.o
+
+# target to build an object file
+03/ex03/ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ClapTrap.cpp.o
+.PHONY : 03/ex03/ClapTrap.cpp.o
+
+03/ex03/ClapTrap.i: 03/ex03/ClapTrap.cpp.i
+.PHONY : 03/ex03/ClapTrap.i
+
+# target to preprocess a source file
+03/ex03/ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ClapTrap.cpp.i
+.PHONY : 03/ex03/ClapTrap.cpp.i
+
+03/ex03/ClapTrap.s: 03/ex03/ClapTrap.cpp.s
+.PHONY : 03/ex03/ClapTrap.s
+
+# target to generate assembly for a file
+03/ex03/ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ClapTrap.cpp.s
+.PHONY : 03/ex03/ClapTrap.cpp.s
+
+03/ex03/DiamondTrap.o: 03/ex03/DiamondTrap.cpp.o
+.PHONY : 03/ex03/DiamondTrap.o
+
+# target to build an object file
+03/ex03/DiamondTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/DiamondTrap.cpp.o
+.PHONY : 03/ex03/DiamondTrap.cpp.o
+
+03/ex03/DiamondTrap.i: 03/ex03/DiamondTrap.cpp.i
+.PHONY : 03/ex03/DiamondTrap.i
+
+# target to preprocess a source file
+03/ex03/DiamondTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/DiamondTrap.cpp.i
+.PHONY : 03/ex03/DiamondTrap.cpp.i
+
+03/ex03/DiamondTrap.s: 03/ex03/DiamondTrap.cpp.s
+.PHONY : 03/ex03/DiamondTrap.s
+
+# target to generate assembly for a file
+03/ex03/DiamondTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/DiamondTrap.cpp.s
+.PHONY : 03/ex03/DiamondTrap.cpp.s
+
+03/ex03/FragTrap.o: 03/ex03/FragTrap.cpp.o
+.PHONY : 03/ex03/FragTrap.o
+
+# target to build an object file
+03/ex03/FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/FragTrap.cpp.o
+.PHONY : 03/ex03/FragTrap.cpp.o
+
+03/ex03/FragTrap.i: 03/ex03/FragTrap.cpp.i
+.PHONY : 03/ex03/FragTrap.i
+
+# target to preprocess a source file
+03/ex03/FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/FragTrap.cpp.i
+.PHONY : 03/ex03/FragTrap.cpp.i
+
+03/ex03/FragTrap.s: 03/ex03/FragTrap.cpp.s
+.PHONY : 03/ex03/FragTrap.s
+
+# target to generate assembly for a file
+03/ex03/FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/FragTrap.cpp.s
+.PHONY : 03/ex03/FragTrap.cpp.s
+
+03/ex03/ScavTrap.o: 03/ex03/ScavTrap.cpp.o
+.PHONY : 03/ex03/ScavTrap.o
+
+# target to build an object file
+03/ex03/ScavTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ScavTrap.cpp.o
+.PHONY : 03/ex03/ScavTrap.cpp.o
+
+03/ex03/ScavTrap.i: 03/ex03/ScavTrap.cpp.i
+.PHONY : 03/ex03/ScavTrap.i
+
+# target to preprocess a source file
+03/ex03/ScavTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ScavTrap.cpp.i
+.PHONY : 03/ex03/ScavTrap.cpp.i
+
+03/ex03/ScavTrap.s: 03/ex03/ScavTrap.cpp.s
+.PHONY : 03/ex03/ScavTrap.s
+
+# target to generate assembly for a file
+03/ex03/ScavTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/ScavTrap.cpp.s
+.PHONY : 03/ex03/ScavTrap.cpp.s
+
+03/ex03/main.o: 03/ex03/main.cpp.o
+.PHONY : 03/ex03/main.o
+
+# target to build an object file
+03/ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/main.cpp.o
+.PHONY : 03/ex03/main.cpp.o
+
+03/ex03/main.i: 03/ex03/main.cpp.i
+.PHONY : 03/ex03/main.i
+
+# target to preprocess a source file
+03/ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/main.cpp.i
+.PHONY : 03/ex03/main.cpp.i
+
+03/ex03/main.s: 03/ex03/main.cpp.s
+.PHONY : 03/ex03/main.s
+
+# target to generate assembly for a file
+03/ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03.ex03.dir/build.make CMakeFiles/03.ex03.dir/03/ex03/main.cpp.s
+.PHONY : 03/ex03/main.cpp.s
+
+04/ex00/Animal.o: 04/ex00/Animal.cpp.o
+.PHONY : 04/ex00/Animal.o
+
+# target to build an object file
+04/ex00/Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00.ex00.dir/build.make CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.o
+.PHONY : 04/ex00/Animal.cpp.o
+
+04/ex00/Animal.i: 04/ex00/Animal.cpp.i
+.PHONY : 04/ex00/Animal.i
+
+# target to preprocess a source file
+04/ex00/Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00.ex00.dir/build.make CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.i
+.PHONY : 04/ex00/Animal.cpp.i
+
+04/ex00/Animal.s: 04/ex00/Animal.cpp.s
+.PHONY : 04/ex00/Animal.s
+
+# target to generate assembly for a file
+04/ex00/Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00.ex00.dir/build.make CMakeFiles/00.ex00.dir/04/ex00/Animal.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Animal.cpp.s
+.PHONY : 04/ex00/Animal.cpp.s
+
+04/ex00/Cat.o: 04/ex00/Cat.cpp.o
+.PHONY : 04/ex00/Cat.o
+
+# target to build an object file
+04/ex00/Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.o
+.PHONY : 04/ex00/Cat.cpp.o
+
+04/ex00/Cat.i: 04/ex00/Cat.cpp.i
+.PHONY : 04/ex00/Cat.i
+
+# target to preprocess a source file
+04/ex00/Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.i
+.PHONY : 04/ex00/Cat.cpp.i
+
+04/ex00/Cat.s: 04/ex00/Cat.cpp.s
+.PHONY : 04/ex00/Cat.s
+
+# target to generate assembly for a file
+04/ex00/Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Cat.cpp.s
+.PHONY : 04/ex00/Cat.cpp.s
+
+04/ex00/Dog.o: 04/ex00/Dog.cpp.o
+.PHONY : 04/ex00/Dog.o
+
+# target to build an object file
+04/ex00/Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.o
+.PHONY : 04/ex00/Dog.cpp.o
+
+04/ex00/Dog.i: 04/ex00/Dog.cpp.i
+.PHONY : 04/ex00/Dog.i
+
+# target to preprocess a source file
+04/ex00/Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.i
+.PHONY : 04/ex00/Dog.cpp.i
+
+04/ex00/Dog.s: 04/ex00/Dog.cpp.s
+.PHONY : 04/ex00/Dog.s
+
+# target to generate assembly for a file
+04/ex00/Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/Dog.cpp.s
+.PHONY : 04/ex00/Dog.cpp.s
+
+04/ex00/WrongAnimal.o: 04/ex00/WrongAnimal.cpp.o
+.PHONY : 04/ex00/WrongAnimal.o
+
+# target to build an object file
+04/ex00/WrongAnimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.o
+.PHONY : 04/ex00/WrongAnimal.cpp.o
+
+04/ex00/WrongAnimal.i: 04/ex00/WrongAnimal.cpp.i
+.PHONY : 04/ex00/WrongAnimal.i
+
+# target to preprocess a source file
+04/ex00/WrongAnimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.i
+.PHONY : 04/ex00/WrongAnimal.cpp.i
+
+04/ex00/WrongAnimal.s: 04/ex00/WrongAnimal.cpp.s
+.PHONY : 04/ex00/WrongAnimal.s
+
+# target to generate assembly for a file
+04/ex00/WrongAnimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongAnimal.cpp.s
+.PHONY : 04/ex00/WrongAnimal.cpp.s
+
+04/ex00/WrongCat.o: 04/ex00/WrongCat.cpp.o
+.PHONY : 04/ex00/WrongCat.o
+
+# target to build an object file
+04/ex00/WrongCat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.o
+.PHONY : 04/ex00/WrongCat.cpp.o
+
+04/ex00/WrongCat.i: 04/ex00/WrongCat.cpp.i
+.PHONY : 04/ex00/WrongCat.i
+
+# target to preprocess a source file
+04/ex00/WrongCat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.i
+.PHONY : 04/ex00/WrongCat.cpp.i
+
+04/ex00/WrongCat.s: 04/ex00/WrongCat.cpp.s
+.PHONY : 04/ex00/WrongCat.s
+
+# target to generate assembly for a file
+04/ex00/WrongCat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/WrongCat.cpp.s
+.PHONY : 04/ex00/WrongCat.cpp.s
+
+04/ex00/main.o: 04/ex00/main.cpp.o
+.PHONY : 04/ex00/main.o
+
+# target to build an object file
+04/ex00/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/main.cpp.o
+.PHONY : 04/ex00/main.cpp.o
+
+04/ex00/main.i: 04/ex00/main.cpp.i
+.PHONY : 04/ex00/main.i
+
+# target to preprocess a source file
+04/ex00/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/main.cpp.i
+.PHONY : 04/ex00/main.cpp.i
+
+04/ex00/main.s: 04/ex00/main.cpp.s
+.PHONY : 04/ex00/main.s
+
+# target to generate assembly for a file
+04/ex00/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex00.dir/build.make CMakeFiles/04.ex00.dir/04/ex00/main.cpp.s
+.PHONY : 04/ex00/main.cpp.s
+
+04/ex01/Animal.o: 04/ex01/Animal.cpp.o
+.PHONY : 04/ex01/Animal.o
+
+# target to build an object file
+04/ex01/Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.o
+.PHONY : 04/ex01/Animal.cpp.o
+
+04/ex01/Animal.i: 04/ex01/Animal.cpp.i
+.PHONY : 04/ex01/Animal.i
+
+# target to preprocess a source file
+04/ex01/Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.i
+.PHONY : 04/ex01/Animal.cpp.i
+
+04/ex01/Animal.s: 04/ex01/Animal.cpp.s
+.PHONY : 04/ex01/Animal.s
+
+# target to generate assembly for a file
+04/ex01/Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Animal.cpp.s
+.PHONY : 04/ex01/Animal.cpp.s
+
+04/ex01/Brain.o: 04/ex01/Brain.cpp.o
+.PHONY : 04/ex01/Brain.o
+
+# target to build an object file
+04/ex01/Brain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.o
+.PHONY : 04/ex01/Brain.cpp.o
+
+04/ex01/Brain.i: 04/ex01/Brain.cpp.i
+.PHONY : 04/ex01/Brain.i
+
+# target to preprocess a source file
+04/ex01/Brain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.i
+.PHONY : 04/ex01/Brain.cpp.i
+
+04/ex01/Brain.s: 04/ex01/Brain.cpp.s
+.PHONY : 04/ex01/Brain.s
+
+# target to generate assembly for a file
+04/ex01/Brain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Brain.cpp.s
+.PHONY : 04/ex01/Brain.cpp.s
+
+04/ex01/Cat.o: 04/ex01/Cat.cpp.o
+.PHONY : 04/ex01/Cat.o
+
+# target to build an object file
+04/ex01/Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.o
+.PHONY : 04/ex01/Cat.cpp.o
+
+04/ex01/Cat.i: 04/ex01/Cat.cpp.i
+.PHONY : 04/ex01/Cat.i
+
+# target to preprocess a source file
+04/ex01/Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.i
+.PHONY : 04/ex01/Cat.cpp.i
+
+04/ex01/Cat.s: 04/ex01/Cat.cpp.s
+.PHONY : 04/ex01/Cat.s
+
+# target to generate assembly for a file
+04/ex01/Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Cat.cpp.s
+.PHONY : 04/ex01/Cat.cpp.s
+
+04/ex01/Dog.o: 04/ex01/Dog.cpp.o
+.PHONY : 04/ex01/Dog.o
+
+# target to build an object file
+04/ex01/Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.o
+.PHONY : 04/ex01/Dog.cpp.o
+
+04/ex01/Dog.i: 04/ex01/Dog.cpp.i
+.PHONY : 04/ex01/Dog.i
+
+# target to preprocess a source file
+04/ex01/Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.i
+.PHONY : 04/ex01/Dog.cpp.i
+
+04/ex01/Dog.s: 04/ex01/Dog.cpp.s
+.PHONY : 04/ex01/Dog.s
+
+# target to generate assembly for a file
+04/ex01/Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/Dog.cpp.s
+.PHONY : 04/ex01/Dog.cpp.s
+
+04/ex01/main.o: 04/ex01/main.cpp.o
+.PHONY : 04/ex01/main.o
+
+# target to build an object file
+04/ex01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/main.cpp.o
+.PHONY : 04/ex01/main.cpp.o
+
+04/ex01/main.i: 04/ex01/main.cpp.i
+.PHONY : 04/ex01/main.i
+
+# target to preprocess a source file
+04/ex01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/main.cpp.i
+.PHONY : 04/ex01/main.cpp.i
+
+04/ex01/main.s: 04/ex01/main.cpp.s
+.PHONY : 04/ex01/main.s
+
+# target to generate assembly for a file
+04/ex01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex01.dir/build.make CMakeFiles/04.ex01.dir/04/ex01/main.cpp.s
+.PHONY : 04/ex01/main.cpp.s
+
+04/ex02/Animal.o: 04/ex02/Animal.cpp.o
+.PHONY : 04/ex02/Animal.o
+
+# target to build an object file
+04/ex02/Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.o
+.PHONY : 04/ex02/Animal.cpp.o
+
+04/ex02/Animal.i: 04/ex02/Animal.cpp.i
+.PHONY : 04/ex02/Animal.i
+
+# target to preprocess a source file
+04/ex02/Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.i
+.PHONY : 04/ex02/Animal.cpp.i
+
+04/ex02/Animal.s: 04/ex02/Animal.cpp.s
+.PHONY : 04/ex02/Animal.s
+
+# target to generate assembly for a file
+04/ex02/Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Animal.cpp.s
+.PHONY : 04/ex02/Animal.cpp.s
+
+04/ex02/Brain.o: 04/ex02/Brain.cpp.o
+.PHONY : 04/ex02/Brain.o
+
+# target to build an object file
+04/ex02/Brain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.o
+.PHONY : 04/ex02/Brain.cpp.o
+
+04/ex02/Brain.i: 04/ex02/Brain.cpp.i
+.PHONY : 04/ex02/Brain.i
+
+# target to preprocess a source file
+04/ex02/Brain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.i
+.PHONY : 04/ex02/Brain.cpp.i
+
+04/ex02/Brain.s: 04/ex02/Brain.cpp.s
+.PHONY : 04/ex02/Brain.s
+
+# target to generate assembly for a file
+04/ex02/Brain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Brain.cpp.s
+.PHONY : 04/ex02/Brain.cpp.s
+
+04/ex02/Cat.o: 04/ex02/Cat.cpp.o
+.PHONY : 04/ex02/Cat.o
+
+# target to build an object file
+04/ex02/Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.o
+.PHONY : 04/ex02/Cat.cpp.o
+
+04/ex02/Cat.i: 04/ex02/Cat.cpp.i
+.PHONY : 04/ex02/Cat.i
+
+# target to preprocess a source file
+04/ex02/Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.i
+.PHONY : 04/ex02/Cat.cpp.i
+
+04/ex02/Cat.s: 04/ex02/Cat.cpp.s
+.PHONY : 04/ex02/Cat.s
+
+# target to generate assembly for a file
+04/ex02/Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Cat.cpp.s
+.PHONY : 04/ex02/Cat.cpp.s
+
+04/ex02/Dog.o: 04/ex02/Dog.cpp.o
+.PHONY : 04/ex02/Dog.o
+
+# target to build an object file
+04/ex02/Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.o
+.PHONY : 04/ex02/Dog.cpp.o
+
+04/ex02/Dog.i: 04/ex02/Dog.cpp.i
+.PHONY : 04/ex02/Dog.i
+
+# target to preprocess a source file
+04/ex02/Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.i
+.PHONY : 04/ex02/Dog.cpp.i
+
+04/ex02/Dog.s: 04/ex02/Dog.cpp.s
+.PHONY : 04/ex02/Dog.s
+
+# target to generate assembly for a file
+04/ex02/Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/Dog.cpp.s
+.PHONY : 04/ex02/Dog.cpp.s
+
+04/ex02/main.o: 04/ex02/main.cpp.o
+.PHONY : 04/ex02/main.o
+
+# target to build an object file
+04/ex02/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/main.cpp.o
+.PHONY : 04/ex02/main.cpp.o
+
+04/ex02/main.i: 04/ex02/main.cpp.i
+.PHONY : 04/ex02/main.i
+
+# target to preprocess a source file
+04/ex02/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/main.cpp.i
+.PHONY : 04/ex02/main.cpp.i
+
+04/ex02/main.s: 04/ex02/main.cpp.s
+.PHONY : 04/ex02/main.s
+
+# target to generate assembly for a file
+04/ex02/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex02.dir/build.make CMakeFiles/04.ex02.dir/04/ex02/main.cpp.s
+.PHONY : 04/ex02/main.cpp.s
+
+04/ex03/AMateria.o: 04/ex03/AMateria.cpp.o
+.PHONY : 04/ex03/AMateria.o
+
+# target to build an object file
+04/ex03/AMateria.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.o
+.PHONY : 04/ex03/AMateria.cpp.o
+
+04/ex03/AMateria.i: 04/ex03/AMateria.cpp.i
+.PHONY : 04/ex03/AMateria.i
+
+# target to preprocess a source file
+04/ex03/AMateria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.i
+.PHONY : 04/ex03/AMateria.cpp.i
+
+04/ex03/AMateria.s: 04/ex03/AMateria.cpp.s
+.PHONY : 04/ex03/AMateria.s
+
+# target to generate assembly for a file
+04/ex03/AMateria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/AMateria.cpp.s
+.PHONY : 04/ex03/AMateria.cpp.s
+
+04/ex03/Character.o: 04/ex03/Character.cpp.o
+.PHONY : 04/ex03/Character.o
+
+# target to build an object file
+04/ex03/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.o
+.PHONY : 04/ex03/Character.cpp.o
+
+04/ex03/Character.i: 04/ex03/Character.cpp.i
+.PHONY : 04/ex03/Character.i
+
+# target to preprocess a source file
+04/ex03/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.i
+.PHONY : 04/ex03/Character.cpp.i
+
+04/ex03/Character.s: 04/ex03/Character.cpp.s
+.PHONY : 04/ex03/Character.s
+
+# target to generate assembly for a file
+04/ex03/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Character.cpp.s
+.PHONY : 04/ex03/Character.cpp.s
+
+04/ex03/Cure.o: 04/ex03/Cure.cpp.o
+.PHONY : 04/ex03/Cure.o
+
+# target to build an object file
+04/ex03/Cure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.o
+.PHONY : 04/ex03/Cure.cpp.o
+
+04/ex03/Cure.i: 04/ex03/Cure.cpp.i
+.PHONY : 04/ex03/Cure.i
+
+# target to preprocess a source file
+04/ex03/Cure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.i
+.PHONY : 04/ex03/Cure.cpp.i
+
+04/ex03/Cure.s: 04/ex03/Cure.cpp.s
+.PHONY : 04/ex03/Cure.s
+
+# target to generate assembly for a file
+04/ex03/Cure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Cure.cpp.s
+.PHONY : 04/ex03/Cure.cpp.s
+
+04/ex03/ICharacter.o: 04/ex03/ICharacter.cpp.o
+.PHONY : 04/ex03/ICharacter.o
+
+# target to build an object file
+04/ex03/ICharacter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.o
+.PHONY : 04/ex03/ICharacter.cpp.o
+
+04/ex03/ICharacter.i: 04/ex03/ICharacter.cpp.i
+.PHONY : 04/ex03/ICharacter.i
+
+# target to preprocess a source file
+04/ex03/ICharacter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.i
+.PHONY : 04/ex03/ICharacter.cpp.i
+
+04/ex03/ICharacter.s: 04/ex03/ICharacter.cpp.s
+.PHONY : 04/ex03/ICharacter.s
+
+# target to generate assembly for a file
+04/ex03/ICharacter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/ICharacter.cpp.s
+.PHONY : 04/ex03/ICharacter.cpp.s
+
+04/ex03/IMateriaSource.o: 04/ex03/IMateriaSource.cpp.o
+.PHONY : 04/ex03/IMateriaSource.o
+
+# target to build an object file
+04/ex03/IMateriaSource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.o
+.PHONY : 04/ex03/IMateriaSource.cpp.o
+
+04/ex03/IMateriaSource.i: 04/ex03/IMateriaSource.cpp.i
+.PHONY : 04/ex03/IMateriaSource.i
+
+# target to preprocess a source file
+04/ex03/IMateriaSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.i
+.PHONY : 04/ex03/IMateriaSource.cpp.i
+
+04/ex03/IMateriaSource.s: 04/ex03/IMateriaSource.cpp.s
+.PHONY : 04/ex03/IMateriaSource.s
+
+# target to generate assembly for a file
+04/ex03/IMateriaSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/IMateriaSource.cpp.s
+.PHONY : 04/ex03/IMateriaSource.cpp.s
+
+04/ex03/Ice.o: 04/ex03/Ice.cpp.o
+.PHONY : 04/ex03/Ice.o
+
+# target to build an object file
+04/ex03/Ice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.o
+.PHONY : 04/ex03/Ice.cpp.o
+
+04/ex03/Ice.i: 04/ex03/Ice.cpp.i
+.PHONY : 04/ex03/Ice.i
+
+# target to preprocess a source file
+04/ex03/Ice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.i
+.PHONY : 04/ex03/Ice.cpp.i
+
+04/ex03/Ice.s: 04/ex03/Ice.cpp.s
+.PHONY : 04/ex03/Ice.s
+
+# target to generate assembly for a file
+04/ex03/Ice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/Ice.cpp.s
+.PHONY : 04/ex03/Ice.cpp.s
+
+04/ex03/MateriaSource.o: 04/ex03/MateriaSource.cpp.o
+.PHONY : 04/ex03/MateriaSource.o
+
+# target to build an object file
+04/ex03/MateriaSource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.o
+.PHONY : 04/ex03/MateriaSource.cpp.o
+
+04/ex03/MateriaSource.i: 04/ex03/MateriaSource.cpp.i
+.PHONY : 04/ex03/MateriaSource.i
+
+# target to preprocess a source file
+04/ex03/MateriaSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.i
+.PHONY : 04/ex03/MateriaSource.cpp.i
+
+04/ex03/MateriaSource.s: 04/ex03/MateriaSource.cpp.s
+.PHONY : 04/ex03/MateriaSource.s
+
+# target to generate assembly for a file
+04/ex03/MateriaSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/MateriaSource.cpp.s
+.PHONY : 04/ex03/MateriaSource.cpp.s
+
+04/ex03/main.o: 04/ex03/main.cpp.o
+.PHONY : 04/ex03/main.o
+
+# target to build an object file
+04/ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/main.cpp.o
+.PHONY : 04/ex03/main.cpp.o
+
+04/ex03/main.i: 04/ex03/main.cpp.i
+.PHONY : 04/ex03/main.i
+
+# target to preprocess a source file
+04/ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/main.cpp.i
+.PHONY : 04/ex03/main.cpp.i
+
+04/ex03/main.s: 04/ex03/main.cpp.s
+.PHONY : 04/ex03/main.s
+
+# target to generate assembly for a file
+04/ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04.ex03.dir/build.make CMakeFiles/04.ex03.dir/04/ex03/main.cpp.s
+.PHONY : 04/ex03/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1370,6 +2134,11 @@ help:
 	@echo "... 03.ex00"
 	@echo "... 03.ex01"
 	@echo "... 03.ex02"
+	@echo "... 03.ex03"
+	@echo "... 04.ex00"
+	@echo "... 04.ex01"
+	@echo "... 04.ex02"
+	@echo "... 04.ex03"
 	@echo "... 00/ex00/megaphone.o"
 	@echo "... 00/ex00/megaphone.i"
 	@echo "... 00/ex00/megaphone.s"
@@ -1496,6 +2265,93 @@ help:
 	@echo "... 03/ex02/main.o"
 	@echo "... 03/ex02/main.i"
 	@echo "... 03/ex02/main.s"
+	@echo "... 03/ex03/ClapTrap.o"
+	@echo "... 03/ex03/ClapTrap.i"
+	@echo "... 03/ex03/ClapTrap.s"
+	@echo "... 03/ex03/DiamondTrap.o"
+	@echo "... 03/ex03/DiamondTrap.i"
+	@echo "... 03/ex03/DiamondTrap.s"
+	@echo "... 03/ex03/FragTrap.o"
+	@echo "... 03/ex03/FragTrap.i"
+	@echo "... 03/ex03/FragTrap.s"
+	@echo "... 03/ex03/ScavTrap.o"
+	@echo "... 03/ex03/ScavTrap.i"
+	@echo "... 03/ex03/ScavTrap.s"
+	@echo "... 03/ex03/main.o"
+	@echo "... 03/ex03/main.i"
+	@echo "... 03/ex03/main.s"
+	@echo "... 04/ex00/Animal.o"
+	@echo "... 04/ex00/Animal.i"
+	@echo "... 04/ex00/Animal.s"
+	@echo "... 04/ex00/Cat.o"
+	@echo "... 04/ex00/Cat.i"
+	@echo "... 04/ex00/Cat.s"
+	@echo "... 04/ex00/Dog.o"
+	@echo "... 04/ex00/Dog.i"
+	@echo "... 04/ex00/Dog.s"
+	@echo "... 04/ex00/WrongAnimal.o"
+	@echo "... 04/ex00/WrongAnimal.i"
+	@echo "... 04/ex00/WrongAnimal.s"
+	@echo "... 04/ex00/WrongCat.o"
+	@echo "... 04/ex00/WrongCat.i"
+	@echo "... 04/ex00/WrongCat.s"
+	@echo "... 04/ex00/main.o"
+	@echo "... 04/ex00/main.i"
+	@echo "... 04/ex00/main.s"
+	@echo "... 04/ex01/Animal.o"
+	@echo "... 04/ex01/Animal.i"
+	@echo "... 04/ex01/Animal.s"
+	@echo "... 04/ex01/Brain.o"
+	@echo "... 04/ex01/Brain.i"
+	@echo "... 04/ex01/Brain.s"
+	@echo "... 04/ex01/Cat.o"
+	@echo "... 04/ex01/Cat.i"
+	@echo "... 04/ex01/Cat.s"
+	@echo "... 04/ex01/Dog.o"
+	@echo "... 04/ex01/Dog.i"
+	@echo "... 04/ex01/Dog.s"
+	@echo "... 04/ex01/main.o"
+	@echo "... 04/ex01/main.i"
+	@echo "... 04/ex01/main.s"
+	@echo "... 04/ex02/Animal.o"
+	@echo "... 04/ex02/Animal.i"
+	@echo "... 04/ex02/Animal.s"
+	@echo "... 04/ex02/Brain.o"
+	@echo "... 04/ex02/Brain.i"
+	@echo "... 04/ex02/Brain.s"
+	@echo "... 04/ex02/Cat.o"
+	@echo "... 04/ex02/Cat.i"
+	@echo "... 04/ex02/Cat.s"
+	@echo "... 04/ex02/Dog.o"
+	@echo "... 04/ex02/Dog.i"
+	@echo "... 04/ex02/Dog.s"
+	@echo "... 04/ex02/main.o"
+	@echo "... 04/ex02/main.i"
+	@echo "... 04/ex02/main.s"
+	@echo "... 04/ex03/AMateria.o"
+	@echo "... 04/ex03/AMateria.i"
+	@echo "... 04/ex03/AMateria.s"
+	@echo "... 04/ex03/Character.o"
+	@echo "... 04/ex03/Character.i"
+	@echo "... 04/ex03/Character.s"
+	@echo "... 04/ex03/Cure.o"
+	@echo "... 04/ex03/Cure.i"
+	@echo "... 04/ex03/Cure.s"
+	@echo "... 04/ex03/ICharacter.o"
+	@echo "... 04/ex03/ICharacter.i"
+	@echo "... 04/ex03/ICharacter.s"
+	@echo "... 04/ex03/IMateriaSource.o"
+	@echo "... 04/ex03/IMateriaSource.i"
+	@echo "... 04/ex03/IMateriaSource.s"
+	@echo "... 04/ex03/Ice.o"
+	@echo "... 04/ex03/Ice.i"
+	@echo "... 04/ex03/Ice.s"
+	@echo "... 04/ex03/MateriaSource.o"
+	@echo "... 04/ex03/MateriaSource.i"
+	@echo "... 04/ex03/MateriaSource.s"
+	@echo "... 04/ex03/main.o"
+	@echo "... 04/ex03/main.i"
+	@echo "... 04/ex03/main.s"
 .PHONY : help
 
 

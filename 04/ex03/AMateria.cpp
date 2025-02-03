@@ -2,24 +2,24 @@
 
 AMateria::AMateria(std::string const &type): _type(type)
 {
-    std::cout << "AMateria object created" << std::endl;
+    std::cout << "AMateria constructor called" << std::endl;
 }
 
 AMateria::AMateria(AMateria const &copy)
 {
     *this = copy;
-    std::cout << "AMateria object copied" << std::endl;
+    std::cout << "AMateria copy constructor called" << std::endl;
 }
 
 AMateria::~AMateria(void)
 {
-    std::cout << "AMateria object destroyed" << std::endl;
+    std::cout << "AMateria destructor called" << std::endl;
 }
 
 AMateria const	&AMateria::operator=(AMateria const &copy)
 {
     this->_type = copy._type;
-    std::cout << "AMateria Assignment Operator Called" << std::endl;
+    std::cout << "AMateria Assignment Operator called" << std::endl;
     return (*this);
 }
 
